@@ -70,7 +70,7 @@ python run_verify.py --refresh
           ├─> verify：把回答拆成「车站 + 时刻」原子断言
           │       用最长站名优先匹配，避免"南京"抢占"南京南"
           │
-          └─> 逐站四态判定 ──> results.json ──> 验真报告.html
+          └─> 逐站三态判定 ──> results.json ──> 验真报告.html
 ```
 
 判定口径（分母只算可判定的站点）：
@@ -84,6 +84,25 @@ python run_verify.py --refresh
 
 还有一类单独处理：模型提到的车站**根本不是本车次的站**（如把 G677 说成"北京西→西安北"），按站名错判 `mismatch`；而始发/终到站因不在逐站表内，单独跳过、不计入分母。
 
+## 换一个垂类：金价 / 股价
+
+同一套三态框架，换三处配置（`vr_category`、断言模板、比对器）就能跑别的垂类。但要改的还有第四条规则：判定得跟着**数据的时间语义**走。
+
+```bash
+python multi_vertical.py     # 输出 multi_vertical_result.json
+```
+
+实测（2026-11-09）：
+
+| 垂类 | 时间语义 | 权威快照 | 检索 10 条 | 可判 | 正确 | 不符 | 不可判 | 抽不到数 |
+|---|---|---|---|---|---|---|---|---|
+| 金价 | 盘中连续变量 | 879.31 元/克（16:47） | 10 | 1 | 0 | 1 | 8 | 1 |
+| 股价 | 日终快照，已收盘 | 1444.99 元/股（15:00） | 10 | 4 | 3 | 1 | 3 | 3 |
+
+结论很直接：时刻是离散事件，站名对得上就能直接比；收盘价是日终快照，同一交易日就能直接比；盘中金价是连续变量，时点差一小时就动了 0.6%，**必须先把时点对齐，否则"不符"里全是波动**。金价那 9 条里没有一条能被判对错——最大偏差 1.18%，和一天内的正常波动同量级。
+
+![金价时点差与偏差](img/preview-gold-scatter.png)
+
 ## 项目结构
 
 ```
@@ -91,8 +110,9 @@ yuanbao-coding/
 ├── run_verify.py        一键跑完整管线，输出 results.json + 验真报告.html
 ├── wsa_client.py        元宝搜索 SearchPro 客户端（纯标准库 TC3-HMAC-SHA256 签名）
 ├── official.py          VR 卡 passage → 逐站时刻结构（fetched_at + TTL 缓存）
-├── verify.py            断言抽取 + 逐站四态判定
+├── verify.py            断言抽取 + 逐站三态判定
 ├── extract.py           车次号 / 时刻正则抽取
+├── multi_vertical.py    同一套判定跑金价 / 股价（价格断言 + 时间语义）
 ├── questions.py         10 道车次题 + 5 道数字题
 ├── web_audit.py         22 车次 × 10 网页的检索审计（产出 web_audit_results.json）
 ├── make_report.py       验真报告渲染
@@ -102,8 +122,9 @@ yuanbao-coding/
 │   └── memory_baseline.json 对照组：不检索、仅凭记忆作答
 ├── official_trains.json 权威时刻缓存（每条带 fetched_at）
 ├── results.json         验真明细
+├── multi_vertical_result.json  金价 / 股价逐条断言与判定
 ├── web_audit_results.json / probe_results.json / verify_models_result.json
-├── docs/                三份 HTML 报告
+├── docs/                审计报告 + 模型核验报告（验真报告在仓库根目录）
 └── 验真报告.html        最新一次运行产出
 ```
 
