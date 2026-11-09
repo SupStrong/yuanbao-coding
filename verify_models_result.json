@@ -1,0 +1,177 @@
+{
+ "models": {
+  "豆包": [
+   {
+    "train": "G677",
+    "verdict": "checked",
+    "correct": 1,
+    "mismatch": 0,
+    "total": 1,
+    "rows": [
+     {
+      "station": "上海虹桥",
+      "verdict": "correct",
+      "claim": [
+       "10:25"
+      ],
+      "official_arr": "",
+      "official_dep": "10:25",
+      "granularity": "dep"
+     }
+    ],
+    "qid": "T01",
+    "answer_len": 309,
+    "head": "搜索 2 个关键词，参考 9 篇资料 ✅ G677（G676/G677，途中变号） 始发站：上海虹桥站，发车：10:25 终到站：汉口站，到达：14:44携程火车票... 补充说明：列车开出时车次为 G676，到达南京南"
+   },
+   {
+    "train": "K79",
+    "verdict": "checked",
+    "correct": 5,
+    "mismatch": 0,
+    "total": 5,
+    "rows": [
+     {
+      "station": "嘉兴",
+      "verdict": "correct",
+      "claim": [
+       "15:42"
+      ],
+      "official_arr": "15:42",
+      "official_dep": "15:45",
+      "granularity": "arr"
+     },
+     {
+      "station": "杭州南",
+      "verdict": "correct",
+      "claim": [
+       "16:49"
+      ],
+      "official_arr": "16:49",
+      "official_dep": "17:01",
+      "granularity": "arr"
+     },
+     {
+      "station": "诸暨",
+      "verdict": "correct",
+      "claim": [
+       "17:56"
+      ],
+      "official_arr": "17:56",
+      "official_dep": "18:00",
+      "granularity": "arr"
+     },
+     {
+      "station": "义乌",
+      "verdict": "correct",
+      "claim": [
+       "18:36"
+      ],
+      "official_arr": "18:36",
+      "official_dep": "18:42",
+      "granularity": "arr"
+     },
+     {
+      "station": "金华",
+      "verdict": "correct",
+      "claim": [
+       "19:24"
+      ],
+      "official_arr": "19:24",
+      "official_dep": "...",
+      "granularity": "arr"
+     }
+    ],
+    "qid": "T02",
+    "answer_len": 343,
+    "head": "搜索 2 个关键词，参考 9 篇资料 K79（上海松江 → 昆明），选取 5 个经停站： 嘉兴：15:42（当日到站）携程 杭州南：16:49（当日到站）携程 诸暨：17:56（当日到站）携程 义乌：18:36（当日到站"
+   },
+   {
+    "train": "Z386",
+    "verdict": "unknown",
+    "detail": "权威车次库未收录该车次",
+    "rows": [],
+    "qid": "T03",
+    "answer_len": 1187,
+    "head": "搜索 2 个关键词，参考 8 篇资料 Z386（海口 → 长春，过天津后车次变为 Z383），始发：海口 09:20，终到长春：第三日 11:55，全程约 50 小时 35 分，全程 25 站 标记：(+1)= 次日、("
+   },
+   {
+    "train": "D8494",
+    "verdict": "unknown",
+    "detail": "权威车次库未收录该车次",
+    "rows": [],
+    "qid": "T06",
+    "answer_len": 358,
+    "head": "搜索 4 个关键词，参考 13 篇资料 ✅ D8494（玉林 → 南宁东，动车）携程火车票... 表格 站序\t车站\t到站\t发车\t停留 1\t玉林\t—\t08:21\t始发 2\t兴业\t08:42\t08:44\t2 分 3\t贵港\t0"
+   },
+   {
+    "train": "G2556",
+    "verdict": "checked",
+    "correct": 5,
+    "mismatch": 0,
+    "total": 5,
+    "rows": [
+     {
+      "station": "黄山北",
+      "verdict": "correct",
+      "claim": [
+       "07:55"
+      ],
+      "official_arr": "",
+      "official_dep": "07:55",
+      "granularity": "dep"
+     },
+     {
+      "station": "歙县北",
+      "verdict": "correct",
+      "claim": [
+       "08:03",
+       "08:05"
+      ],
+      "official_arr": "08:03",
+      "official_dep": "08:05",
+      "granularity": "arr"
+     },
+     {
+      "station": "绩溪北",
+      "verdict": "correct",
+      "claim": [
+       "08:16",
+       "08:18"
+      ],
+      "official_arr": "08:16",
+      "official_dep": "08:18",
+      "granularity": "arr"
+     },
+     {
+      "station": "泾县",
+      "verdict": "correct",
+      "claim": [
+       "08:38",
+       "08:40"
+      ],
+      "official_arr": "08:38",
+      "official_dep": "08:40",
+      "granularity": "arr"
+     },
+     {
+      "station": "铜陵北",
+      "verdict": "correct",
+      "claim": [
+       "08:57",
+       "08:59"
+      ],
+      "official_arr": "08:57",
+      "official_dep": "08:59",
+      "granularity": "arr"
+     }
+    ],
+    "qid": "T10",
+    "answer_len": 506,
+    "head": "搜索 2 个关键词，参考 8 篇资料 G2556（黄山北 → 北京南）携程 表格 站序\t车站\t到站\t发车\t停留 1\t黄山北\t—\t07:55\t始发 2\t歙县北\t08:03\t08:05\t2 分 3\t绩溪北\t08:16\t08:"
+   }
+  ],
+  "Kimi": [],
+  "DeepSeek": []
+ },
+ "summary": []
+}

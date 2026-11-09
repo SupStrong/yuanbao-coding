@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>车次断言核验报告 · 官方数据 vs 大模型 vs 网页</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7f9;color:#1a1d21;font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
+.wrap{max-width:1080px;margin:0 auto;padding:40px 24px 72px}
+.hero{background:#fff;border:1px solid #e6e8ec;border-radius:16px;padding:32px 36px;margin-bottom:24px}
+h1{font-size:27px;margin:0 0 8px;letter-spacing:-.4px}
+.sub{color:#6b7280;font-size:14px;margin-bottom:22px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:#fafbfc;border:1px solid #ecedf1;border-radius:11px;padding:16px}
+.kpi .n{font-size:26px;font-weight:700;letter-spacing:-.5px}
+.kpi .l{font-size:12px;color:#6b7280;margin-top:2px}
+.red{color:#d93025} .green{color:#12805c} .gray{color:#6b7280} .blue{color:#1a63d8}
+h2{font-size:19px;margin:34px 0 12px;padding-left:11px;border-left:4px solid #1a63d8}
+.card{background:#fff;border:1px solid #e6e8ec;border-radius:14px;padding:26px 28px;margin-bottom:20px}
+.tag{display:inline-block;font-size:12px;padding:2px 9px;border-radius:20px;margin-right:6px;font-weight:600}
+.t-ok{background:#e6f6ef;color:#12805c} .t-bad{background:#fdeceb;color:#d93025} .t-unk{background:#eef0f4;color:#5b6472}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+th{background:#f4f6f9;text-align:left;padding:10px 12px;font-weight:600;font-size:13px;color:#475467;border-bottom:1px solid #e6e8ec}
+td{padding:9px 12px;border-bottom:1px solid #f1f2f5}
+tr.ok td:last-child{color:#12805c;font-weight:600}
+tr.bad td:last-child{color:#d93025;font-weight:600}
+.quote{background:#fafbfc;border-left:3px solid #cfd4dc;padding:14px 16px;font-size:13.5px;color:#3d4450;border-radius:0 8px 8px 0;margin:12px 0;white-space:pre-wrap}
+.shot{width:100%;border:1px solid #e6e8ec;border-radius:10px;margin-top:12px}
+.cap{font-size:12px;color:#8a919e;margin-top:6px}
+.note{background:#fff8e6;border:1px solid #f5e0a3;border-radius:10px;padding:14px 16px;font-size:13.5px;color:#6b5316}
+ul{margin:8px 0 0;padding-left:20px} li{margin:4px 0;font-size:14px}
+</style></head><body><div class="wrap">
+
+<div class="hero">
+  <h1>车次断言核验报告</h1>
+  <div class="sub">数据源：元宝搜索 VR 卡（携程车次库）· 采集时间 2026-11-09 · 全部调用可复现</div>
+  <div class="kpis">
+    <div class="kpi"><div class="n">220</div><div class="l">条网页信息审计</div></div>
+    <div class="kpi"><div class="n red">11/89</div><div class="l">与官方不符（12.4%）</div></div>
+    <div class="kpi"><div class="n gray">0</div><div class="l">答非所问（0%）</div></div>
+    <div class="kpi"><div class="n red">0/12</div><div class="l">纯记忆模型断言正确</div></div>
+  </div>
+</div>
+
+<div class="note">
+  <b>一句话结论：</b>同一个车次，官方数据只有一个答案，而网络上有三种口径——网页会抄错、模型会把矛盾原样搬给你、只有权威数据源能裁定。这份报告要证明的不是"AI 一定在编"，而是<b>"你无法判断它此刻是否在编"</b>。
+</div>
+
+<h2>案例一 · G677：三个信息源，两个答案</h2>
+<div class="card">
+  <p><b>官方权威值</b>（元宝搜索 VR 卡 / 携程车次库）：上海虹桥 <b>10:25</b> 发车 → 汉口 <b>14:44</b> 到达，全程 4小时19分钟。</p>
+  <table><thead><tr><th>信息源</th><th>给出的发车时间</th><th>是否与官方一致</th><th>说明</th></tr></thead><tbody>
+    <tr class="ok"><td>元宝 VR 卡（权威）</td><td>10:25</td><td>基准</td><td>携程车次库，含逐站到发时刻</td></tr>
+    <tr class="ok"><td>Kimi（开启联网）</td><td>10:25</td><td>一致</td><td>并主动标注"百度百科的 08:38 是旧调图版本"</td></tr>
+    <tr class="bad"><td>DeepSeek（开启联网）</td><td>10:25 <span style="color:#d93025">/ 08:38</span></td><td>给出矛盾两版</td><td>两个答案并列，不做裁定，让读者自己去 12306 查</td></tr>
+    <tr class="bad"><td>train.hao86.com</td><td>08:38</td><td>错误</td><td>网页本身抄错，且被模型当作"部分来源"引用</td></tr>
+  </tbody></table>
+  <div class="quote">Kimi 原文（节选）：G677 次高铁（与 G676 为同一列车，在南京南站后车次号由 G676 变更为 G677）的基本信息如下：出发站：上海虹桥站；到达站：汉口站；发车时间：10:25（上海虹桥始发）；到达时间：当日 14:44 左右，全程约 4 小时 19 分钟；沿途经停：昆山南（10:44 发）、无锡东（11:02 发）、南京南（11:52 发，此站起车次变更为 G677）、合肥南（12:45 发）、麻城北、红安西，终到汉口。需要注意的是，该车次时刻曾多次随运行图调整变动（例如百度百科记载的 2026 年 1 月调图版本为 08:38 发车、13:43 到达）。</div>
+  <div class="quote">DeepSeek 原文：关于G677次高铁的信息，目前存在两种不同的时刻数据，可能对应不同的运行图时期，建议以12306官方实时信息为准。一种常见时刻（近期多源显示）：出发站上海虹桥、到达站汉口、发车时间 10:25；另一种时刻（部分来源显示）：出发站上海虹桥、到达站汉口、发车时间 08:38。由于列车运行图可能调整，出发前最好还是在铁路12306官方渠道确认一下。</div>
+  <div class="cap">说明：DeepSeek 该次会话的截屏因平台弹出人机验证而失效，此处保留其完整回答原文（含来源编号 1/2/4 与 3/6/7），原始记录见 answers_raw/deepseek.json。</div>
+</div>
+
+<h2>案例二 · K79：开启搜索的模型可以逐站全对</h2>
+<div class="card">
+  <p>官方：上海松江 <b>15:08</b> → 昆明 <b>第三天05:13</b>（38小时5分钟）。Kimi 给出的 5 个经停站到达时刻与官方逐条比对：</p>
+  <p><span class="tag t-ok">5/5 一致</span> 这说明"带权威数据的检索"确实能救回准确率——问题不在模型能力，在于它检索到的信息源可不可信。</p>
+  <table><thead><tr><th>车站</th><th>模型给出的时刻</th><th>官方时刻（到/发）</th><th>判定</th></tr></thead><tbody><tr class='ok'><td>嘉兴</td><td>15:42</td><td>15:42</td><td>一致（到站）</td></tr><tr class='ok'><td>杭州南</td><td>16:49</td><td>16:49</td><td>一致（到站）</td></tr><tr class='ok'><td>诸暨</td><td>17:56</td><td>17:56</td><td>一致（到站）</td></tr><tr class='ok'><td>义乌</td><td>18:36</td><td>18:36</td><td>一致（到站）</td></tr><tr class='ok'><td>金华</td><td>19:24</td><td>19:24</td><td>一致（到站）</td></tr></tbody></table>
+  <div class="quote">Kimi 原文：K79 次列车（上海松江 → 昆明，每日开行，全程约 38 小时 5 分钟）目前最新时刻表中的部分经停站及到达时间如下：嘉兴 15:42、杭州南 16:49、诸暨 17:56、义乌 18:36、金华 19:24。补充说明：列车 15:08 从上海松江始发，第三日 05:13 抵达昆明，全程 26 站。</div>
+  <img class="shot" src="shots/kimi_T02.png" alt="Kimi K79 回答截图">
+  <div class="cap">截图：Kimi 的 K79 回答，右侧"使用 1 个工具"表明它做了联网检索。</div>
+</div>
+
+<h2>案例三 · D8494：查不到的车次，工具必须敢说"不知道"</h2>
+<div class="card">
+  <p><span class="tag t-unk">存疑 / 无法证实</span> 官方车次库无此车次记录；用元宝搜索全量检索"D8494"，返回 <b>0 条</b>结果。</p>
+  <div class="quote">Kimi 原文（节选）：D8494 次列车时刻表（北海 → 三江南，全程约 688 公里，历时约 5 小时 24 分钟）：1 北海 — 12:46 始发；2 合浦 12:57/12:59；3 钦州东 13:19/13:21；4 南宁 14:12/14:30 ……</div>
+  <img class="shot" src="shots/kimi_T06.png" alt="Kimi D8494 回答截图">
+  <div class="cap">截图：Kimi 为 D8494 输出了完整的站序与时刻表，但该车次在官方库与全网检索中均无记录。</div>
+  <p style="margin-top:14px"><b>为什么判"存疑"而不是"编造"：</b>我们把 D8493、G8888 一并检索，同样返回 0 条——说明"零结果"可能来自数据未覆盖，而不是车次不存在。凡是无法证实的，一律不判真假，只标记"存疑"。这正是这类工具最容易被忽略、却最影响可信度的一环。</p>
+</div>
+
+<h2>网页层审计：错的不是模型，是它读到的网页</h2>
+<div class="card">
+  <p>220 条搜索结果中，0 条（0%）搜到的其实是<b>别的车次</b>（如搜 G27 返回 G17/G2701）；可判定的 89 条里，<b>11 条与官方不符</b>。</p>
+  <table><thead><tr><th>站点</th><th>错误 / 可判定</th><th>错误率</th></tr></thead><tbody>
+  <tr class='bad'><td>train.hao86.com</td><td>6 / 13</td><td>46%</td></tr><tr class='bad'><td>百度百科</td><td>3 / 9</td><td>33%</td></tr><tr class=''><td>ip138查询网</td><td>1 / 19</td><td>5%</td></tr><tr class='bad'><td>trainm.hao86.com</td><td>1 / 1</td><td>100%</td></tr><tr class=''><td>www.ailieche.com</td><td>0 / 13</td><td>0%</td></tr>
+  </tbody></table>
+  <div class="cap">按站点聚合（仅列错误数最多的 5 个），完整 220 条明细见 web_audit_results.json。</div>
+</div>
+
+<div class="card">
+  <h2 style="margin-top:0">方法说明与局限</h2>
+  <ul>
+    <li><b>权威基准：</b>元宝搜索 VR 卡（Mode=1），数据来自携程车次库，含始发/终到/逐站到发时刻。</li>
+    <li><b>模型侧：</b>DeepSeek / Kimi 网页版，均为默认开启联网搜索的真实回答，原文与整页存档保留。</li>
+    <li><b>比对规则：</b>先按车次号精确匹配，剔除相似车次（G27 与 G2701）造成的假错；模型给的是发车时刻则比发车，否则比到站。</li>
+    <li><b>局限：</b>① 模型回答会受当日检索结果影响，换时间可能变化；② 部分冷门车次官方库未覆盖，只能判"存疑"；③ 网页审计的"不符"基于摘要中的时间/线路声明，未抓取全文。</li>
+  </ul>
+</div>
+
+</div></body></html>

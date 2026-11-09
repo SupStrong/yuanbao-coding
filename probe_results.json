@@ -1,0 +1,377 @@
+[
+ {
+  "category": "stock(股票)",
+  "query": "腾讯股价",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "stock"
+  ],
+  "vr_titles": [
+   "腾讯控股(ADR)_TCEHY_us"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "stock(股票)",
+  "query": "茅台股价",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "stock"
+  ],
+  "vr_titles": [
+   "贵州茅台_600519_a"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "stock(股票)",
+  "query": "东方财富股票",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "stock"
+  ],
+  "vr_titles": [
+   "东方财富_300059_a"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "stock(股票)",
+  "query": "特斯拉股价",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "stock"
+  ],
+  "vr_titles": [
+   "特斯拉_TSLA_us"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "train(火车)",
+  "query": "G677",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "train"
+  ],
+  "vr_titles": [
+   "G677"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "train(火车)",
+  "query": "k79次列车经停的车站",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "train"
+  ],
+  "vr_titles": [
+   "K79"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "train(火车)",
+  "query": "z386火车时刻表经停站",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "train"
+  ],
+  "vr_titles": [
+   "Z386"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "train(火车)",
+  "query": "G1847高铁途经站点",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "train"
+  ],
+  "vr_titles": [
+   "G1847"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "gold(贵金属)",
+  "query": "黄金价格",
+  "total_results": 2,
+  "vr_hits": 2,
+  "vr_categories": [
+   "gold"
+  ],
+  "vr_titles": [
+   "实物黄金价格_金投网",
+   "今日现货黄金价格走势图_金投网"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "gold(贵金属)",
+  "query": "白银价格",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "gold"
+  ],
+  "vr_titles": [
+   "今日现货白银价格走势图_金投网"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "gold(贵金属)",
+  "query": "北京金价",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "gold"
+  ],
+  "vr_titles": [
+   "实物黄金价格_金投网"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "gold(贵金属)",
+  "query": "伦敦金",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "gold"
+  ],
+  "vr_titles": [
+   "今日伦敦金价格走势图_金投网"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "exchangerate(汇率)",
+  "query": "美元对人民币汇率",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ },
+ {
+  "category": "exchangerate(汇率)",
+  "query": "日元兑人民币",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ },
+ {
+  "category": "exchangerate(汇率)",
+  "query": "港币对人民币汇率",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ },
+ {
+  "category": "oil(油价)",
+  "query": "北京今日油价",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "oil"
+  ],
+  "vr_titles": [
+   "【北京今日油价】成品油零售价"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "oil(油价)",
+  "query": "上海油价",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "oil"
+  ],
+  "vr_titles": [
+   "【上海今日油价】成品油零售价"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "weather(天气)",
+  "query": "北京天气",
+  "total_results": 2,
+  "vr_hits": 2,
+  "vr_categories": [
+   "weather"
+  ],
+  "vr_titles": [
+   "中国北京天气预报_一周天气预报",
+   "北京天气预报_一周天气预报"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "weather(天气)",
+  "query": "上海天气",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "weather"
+  ],
+  "vr_titles": [
+   "上海天气预报_一周天气预报"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "weather(天气)",
+  "query": "东京天气",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "weather"
+  ],
+  "vr_titles": [
+   "日本东京天气预报_一周天气预报"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "phone(手机参数)",
+  "query": "华为mate60和mate60pro区别",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "phone"
+  ],
+  "vr_titles": [
+   "HUAWEI Mate 60与HUAWEI Mate 60 Pro_参数 图片 "
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "phone(手机参数)",
+  "query": "苹果13和14的区别",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "phone"
+  ],
+  "vr_titles": [
+   "苹果iPhone 13与小米14_参数 图片 口碑_中关村在线"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "phone(手机参数)",
+  "query": "红米k70至尊版和k70pro哪个好",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "phone"
+  ],
+  "vr_titles": [
+   "Redmi K70至尊版与Redmi K70 Pro_参数 图片 口碑_中关村在"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "car(汽车)",
+  "query": "问界m9",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "car"
+  ],
+  "vr_titles": [
+   "鸿蒙智行问界M9_太平洋汽车网"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "car(汽车)",
+  "query": "丰田",
+  "total_results": 2,
+  "vr_hits": 2,
+  "vr_categories": [
+   "car",
+   "stock"
+  ],
+  "vr_titles": [
+   "丰田汽车_TM_us",
+   "丰田报价及图片_太平洋汽车网"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "car(汽车)",
+  "query": "五菱宏光",
+  "total_results": 1,
+  "vr_hits": 1,
+  "vr_categories": [
+   "car"
+  ],
+  "vr_titles": [
+   "五菱宏光_太平洋汽车网"
+  ],
+  "vr_hit": true
+ },
+ {
+  "category": "medical(医疗)",
+  "query": "血压正常范围",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ },
+ {
+  "category": "medical(医疗)",
+  "query": "冠心病治疗",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ },
+ {
+  "category": "对照组(非垂直)",
+  "query": "元宝搜索怎么用",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ },
+ {
+  "category": "对照组(非垂直)",
+  "query": "三星堆考古发现",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ },
+ {
+  "category": "对照组(非垂直)",
+  "query": "python 爬虫教程",
+  "total_results": 0,
+  "vr_hits": 0,
+  "vr_categories": [],
+  "vr_titles": [],
+  "vr_hit": false
+ }
+]

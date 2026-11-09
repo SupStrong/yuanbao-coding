@@ -1,0 +1,634 @@
+{
+ "models": {
+  "豆包（doubao）": {
+   "questions": 5,
+   "correct": 11,
+   "mismatch": 0,
+   "decidable_stations": 11,
+   "accuracy": 1.0,
+   "unknown_questions": 2,
+   "skipped_stations": 1
+  },
+  "记忆基线（不检索，仅凭参数化记忆作答）": {
+   "questions": 10,
+   "correct": 0,
+   "mismatch": 18,
+   "decidable_stations": 18,
+   "accuracy": 0.0,
+   "unknown_questions": 4,
+   "skipped_stations": 0
+  }
+ },
+ "questions": [
+  {
+   "train": "G677",
+   "verdict": "checked",
+   "correct": 1,
+   "mismatch": 0,
+   "total": 1,
+   "skipped": 0,
+   "terminals_skipped": 1,
+   "rows": [
+    {
+     "station": "上海虹桥",
+     "verdict": "correct",
+     "claim": [
+      "10:25"
+     ],
+     "official_arr": "",
+     "official_dep": "10:25",
+     "granularity": "dep"
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T01",
+   "model": "豆包（doubao）",
+   "question": "G677 次高铁的出发站、到达站和发车时间是什么？",
+   "answer_len": 309,
+   "head": "搜索 2 个关键词，参考 9 篇资料 ✅ G677（G676/G677，途中变号） 始发站：上海虹桥站，发车：10:25 终到站：汉口站，到达：14:44携程火车票... 补充说明：列车开出时车次为 G676，到达南京南"
+  },
+  {
+   "train": "K79",
+   "verdict": "checked",
+   "correct": 5,
+   "mismatch": 0,
+   "total": 5,
+   "skipped": 0,
+   "terminals_skipped": 0,
+   "rows": [
+    {
+     "station": "嘉兴",
+     "verdict": "correct",
+     "claim": [
+      "15:42"
+     ],
+     "official_arr": "15:42",
+     "official_dep": "15:45",
+     "granularity": "arr"
+    },
+    {
+     "station": "杭州南",
+     "verdict": "correct",
+     "claim": [
+      "16:49"
+     ],
+     "official_arr": "16:49",
+     "official_dep": "17:01",
+     "granularity": "arr"
+    },
+    {
+     "station": "诸暨",
+     "verdict": "correct",
+     "claim": [
+      "17:56"
+     ],
+     "official_arr": "17:56",
+     "official_dep": "18:00",
+     "granularity": "arr"
+    },
+    {
+     "station": "义乌",
+     "verdict": "correct",
+     "claim": [
+      "18:36"
+     ],
+     "official_arr": "18:36",
+     "official_dep": "18:42",
+     "granularity": "arr"
+    },
+    {
+     "station": "金华",
+     "verdict": "correct",
+     "claim": [
+      "19:24"
+     ],
+     "official_arr": "19:24",
+     "official_dep": "...",
+     "granularity": "arr"
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T02",
+   "model": "豆包（doubao）",
+   "question": "K79 次列车经过哪些站？请列出 5 个经停站和到达时刻。",
+   "answer_len": 343,
+   "head": "搜索 2 个关键词，参考 9 篇资料 K79（上海松江 → 昆明），选取 5 个经停站： 嘉兴：15:42（当日到站）携程 杭州南：16:49（当日到站）携程 诸暨：17:56（当日到站）携程 义乌：18:36（当日到站"
+  },
+  {
+   "train": "Z386",
+   "verdict": "unknown",
+   "detail": "权威车次库未收录该车次",
+   "correct": 0,
+   "mismatch": 0,
+   "total": 0,
+   "skipped": 0,
+   "rows": [],
+   "qid": "T03",
+   "model": "豆包（doubao）",
+   "question": "Z386 次火车的全程时刻表，附主要经停站。",
+   "answer_len": 1187,
+   "head": "搜索 2 个关键词，参考 8 篇资料 Z386（海口 → 长春，过天津后车次变为 Z383），始发：海口 09:20，终到长春：第三日 11:55，全程约 50 小时 35 分，全程 25 站 标记：(+1)= 次日、("
+  },
+  {
+   "train": "D8494",
+   "verdict": "unknown",
+   "detail": "权威车次库未收录该车次",
+   "correct": 0,
+   "mismatch": 0,
+   "total": 0,
+   "skipped": 0,
+   "rows": [],
+   "qid": "T06",
+   "model": "豆包（doubao）",
+   "question": "D8494 次动车的时刻表和经停站。",
+   "answer_len": 358,
+   "head": "搜索 4 个关键词，参考 13 篇资料 ✅ D8494（玉林 → 南宁东，动车）携程火车票... 表格 站序\t车站\t到站\t发车\t停留 1\t玉林\t—\t08:21\t始发 2\t兴业\t08:42\t08:44\t2 分 3\t贵港\t0"
+  },
+  {
+   "train": "G2556",
+   "verdict": "checked",
+   "correct": 5,
+   "mismatch": 0,
+   "total": 5,
+   "skipped": 1,
+   "terminals_skipped": 0,
+   "rows": [
+    {
+     "station": "黄山北",
+     "verdict": "correct",
+     "claim": [
+      "07:55"
+     ],
+     "official_arr": "",
+     "official_dep": "07:55",
+     "granularity": "dep"
+    },
+    {
+     "station": "歙县北",
+     "verdict": "correct",
+     "claim": [
+      "08:03",
+      "08:05"
+     ],
+     "official_arr": "08:03",
+     "official_dep": "08:05",
+     "granularity": "arr"
+    },
+    {
+     "station": "绩溪北",
+     "verdict": "correct",
+     "claim": [
+      "08:16",
+      "08:18"
+     ],
+     "official_arr": "08:16",
+     "official_dep": "08:18",
+     "granularity": "arr"
+    },
+    {
+     "station": "泾县",
+     "verdict": "correct",
+     "claim": [
+      "08:38",
+      "08:40"
+     ],
+     "official_arr": "08:38",
+     "official_dep": "08:40",
+     "granularity": "arr"
+    },
+    {
+     "station": "铜陵北",
+     "verdict": "correct",
+     "claim": [
+      "08:57",
+      "08:59"
+     ],
+     "official_arr": "08:57",
+     "official_dep": "08:59",
+     "granularity": "arr"
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T10",
+   "model": "豆包（doubao）",
+   "question": "G2556 高铁经停哪些站？各站到达时间是多少？",
+   "answer_len": 506,
+   "head": "搜索 2 个关键词，参考 8 篇资料 G2556（黄山北 → 北京南）携程 表格 站序\t车站\t到站\t发车\t停留 1\t黄山北\t—\t07:55\t始发 2\t歙县北\t08:03\t08:05\t2 分 3\t绩溪北\t08:16\t08:"
+  },
+  {
+   "train": "G677",
+   "verdict": "checked",
+   "correct": 0,
+   "mismatch": 2,
+   "total": 2,
+   "skipped": 0,
+   "terminals_skipped": 0,
+   "rows": [
+    {
+     "station": "高铁由北京西站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "08:00"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "开往西安北站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "08:00"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T01",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "G677 次高铁的出发站、到达站和发车时间是什么？",
+   "answer_len": 49,
+   "head": "G677 次高铁由北京西站开往西安北站，发车时间约为 08:00，全程大约 5 小时 40 分钟。"
+  },
+  {
+   "train": "K79",
+   "verdict": "checked",
+   "correct": 0,
+   "mismatch": 5,
+   "total": 5,
+   "skipped": 0,
+   "terminals_skipped": 0,
+   "rows": [
+    {
+     "station": "经停石家庄站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "14:22",
+      "18:05",
+      "23:40",
+      "04:15",
+      "15:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "郑州站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "14:22",
+      "18:05",
+      "23:40",
+      "04:15",
+      "15:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "武昌站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "14:22",
+      "18:05",
+      "23:40",
+      "04:15",
+      "15:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "长沙站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "14:22",
+      "18:05",
+      "23:40",
+      "04:15",
+      "15:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "贵阳站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "14:22",
+      "18:05",
+      "23:40",
+      "04:15",
+      "15:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T02",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "K79 次列车经过哪些站？请列出 5 个经停站和到达时刻。",
+   "answer_len": 76,
+   "head": "K79 次列车是北京西到昆明的快速列车，经停石家庄站 14:22、郑州站 18:05、武昌站 23:40、长沙站 04:15、贵阳站 15:30 等站。"
+  },
+  {
+   "train": "Z386",
+   "verdict": "unknown",
+   "detail": "权威车次库未收录该车次",
+   "correct": 0,
+   "mismatch": 0,
+   "total": 0,
+   "skipped": 0,
+   "rows": [],
+   "qid": "T03",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "Z386 次火车的全程时刻表，附主要经停站。",
+   "answer_len": 70,
+   "head": "Z386 次是直达特快列车，从广州站发车 10:50，经停长沙站 16:32、武昌站 22:15、郑州站 03:10、北京西站 08:00。"
+  },
+  {
+   "train": "G1847",
+   "verdict": "checked",
+   "correct": 0,
+   "mismatch": 5,
+   "total": 5,
+   "skipped": 0,
+   "terminals_skipped": 0,
+   "rows": [
+    {
+     "station": "高铁从北京南站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "07:30",
+      "10:12",
+      "12:45",
+      "15:02",
+      "16:40"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "途经济南站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "07:30",
+      "10:12",
+      "12:45",
+      "15:02",
+      "16:40"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "徐州东站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "07:30",
+      "10:12",
+      "12:45",
+      "15:02",
+      "16:40"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "南京南站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "07:30",
+      "10:12",
+      "12:45",
+      "15:02",
+      "16:40"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "终到上海虹桥站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "07:30",
+      "10:12",
+      "12:45",
+      "15:02",
+      "16:40"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T04",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "G1847 高铁途经哪些站点？发车时间是几点？",
+   "answer_len": 72,
+   "head": "G1847 次高铁从北京南站 07:30 发车，途经济南站 10:12、徐州东站 12:45、南京南站 15:02，终到上海虹桥站 16:40。"
+  },
+  {
+   "qid": "T05",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "推荐 3 趟从北京到上海的高铁车次，附发车时间。",
+   "train": "",
+   "verdict": "no_target",
+   "detail": "题干未指定单一车次（多车次/开放题，不做逐站核验）",
+   "correct": 0,
+   "mismatch": 0,
+   "total": 0,
+   "skipped": 0,
+   "rows": []
+  },
+  {
+   "train": "D8494",
+   "verdict": "unknown",
+   "detail": "权威车次库未收录该车次",
+   "correct": 0,
+   "mismatch": 0,
+   "total": 0,
+   "skipped": 0,
+   "rows": [],
+   "qid": "T06",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "D8494 次动车的时刻表和经停站。",
+   "answer_len": 56,
+   "head": "D8494 次动车 06:55 发车，经停成都东站 08:20、重庆北站 10:15，终到贵阳北站 13:40。"
+  },
+  {
+   "train": "G1684",
+   "verdict": "unknown",
+   "detail": "权威车次库未收录该车次",
+   "correct": 0,
+   "mismatch": 0,
+   "total": 0,
+   "skipped": 0,
+   "rows": [],
+   "qid": "T07",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "G1684 次高铁几点发车？经过哪些城市？",
+   "answer_len": 40,
+   "head": "G1684 次高铁 09:20 发车，经过济南、合肥、杭州等城市，终到厦门北站。"
+  },
+  {
+   "train": "K2084",
+   "verdict": "unknown",
+   "detail": "权威车次库未收录该车次",
+   "correct": 0,
+   "mismatch": 0,
+   "total": 0,
+   "skipped": 0,
+   "rows": [],
+   "qid": "T08",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "K2084 次列车的发车时间和到达时间。",
+   "answer_len": 48,
+   "head": "K2084 次列车 18:36 从始发站发车，次日 14:22 到达终点站，全程约 20 小时。"
+  },
+  {
+   "train": "C260",
+   "verdict": "checked",
+   "correct": 0,
+   "mismatch": 1,
+   "total": 1,
+   "skipped": 0,
+   "terminals_skipped": 0,
+   "rows": [
+    {
+     "station": "到达天津站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "06:30",
+      "07:01"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T09",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "C260 次城际列车的运行区间和时刻。",
+   "answer_len": 42,
+   "head": "C260 次城际列车运行于北京至天津区间，06:30 发车，07:01 到达天津站。"
+  },
+  {
+   "train": "G2556",
+   "verdict": "checked",
+   "correct": 0,
+   "mismatch": 5,
+   "total": 5,
+   "skipped": 0,
+   "terminals_skipped": 0,
+   "rows": [
+    {
+     "station": "铁经停北京南站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "08:05",
+      "08:35",
+      "09:10",
+      "09:45",
+      "10:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "廊坊站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "08:05",
+      "08:35",
+      "09:10",
+      "09:45",
+      "10:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "天津南站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "08:05",
+      "08:35",
+      "09:10",
+      "09:45",
+      "10:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "沧州西站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "08:05",
+      "08:35",
+      "09:10",
+      "09:45",
+      "10:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    },
+    {
+     "station": "德州东站（非本车次车站）",
+     "verdict": "mismatch",
+     "claim": [
+      "08:05",
+      "08:35",
+      "09:10",
+      "09:45",
+      "10:30"
+     ],
+     "official_arr": "",
+     "official_dep": "",
+     "granularity": ""
+    }
+   ],
+   "fetched_at": "2026-11-09T02:40:00Z",
+   "stale": false,
+   "source_url": "",
+   "qid": "T10",
+   "model": "记忆基线（不检索，仅凭参数化记忆作答）",
+   "question": "G2556 高铁经停哪些站？各站到达时间是多少？",
+   "answer_len": 65,
+   "head": "G2556 次高铁经停北京南站 08:05、廊坊站 08:35、天津南站 09:10、沧州西站 09:45、德州东站 10:30。"
+  }
+ ]
+}

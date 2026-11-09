@@ -1,0 +1,2998 @@
+{
+ "official": {
+  "G677": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "上海虹桥",
+   "终点站": "汉口",
+   "出发时间": "10:25",
+   "到达时间": "14:44",
+   "全程时间": "4小时19分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "上海虹桥",
+     "arrive": "----",
+     "depart": "10:25"
+    },
+    {
+     "station": "昆山南",
+     "arrive": "10:42",
+     "depart": "10:44"
+    },
+    {
+     "station": "无锡东",
+     "arrive": "11:00",
+     "depart": "11:02"
+    },
+    {
+     "station": "南京南",
+     "arrive": "11:47",
+     "depart": "11:52"
+    },
+    {
+     "station": "合肥南",
+     "arrive": "12:41",
+     "depart": "12:45"
+    }
+   ]
+  },
+  "G1": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京南",
+   "终点站": "上海虹桥",
+   "出发时间": "06:30",
+   "到达时间": "11:24",
+   "全程时间": "4小时54分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "北京南",
+     "arrive": "----",
+     "depart": "06:30"
+    },
+    {
+     "station": "沧州西",
+     "arrive": "07:18",
+     "depart": "07:20"
+    },
+    {
+     "station": "德州东",
+     "arrive": "07:45",
+     "depart": "07:47"
+    },
+    {
+     "station": "曲阜东",
+     "arrive": "08:34",
+     "depart": "08:36"
+    },
+    {
+     "station": "南京南",
+     "arrive": "10:13",
+     "depart": "10:15"
+    },
+    {
+     "station": "苏州北",
+     "arrive": "10:59",
+     "depart": "11:01..."
+    }
+   ]
+  },
+  "G3": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京南",
+   "终点站": "上海",
+   "出发时间": "06:52",
+   "到达时间": "11:33",
+   "全程时间": "4小时41分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "北京南",
+     "arrive": "----",
+     "depart": "06:52"
+    },
+    {
+     "station": "天津南",
+     "arrive": "07:23",
+     "depart": "07:25"
+    },
+    {
+     "station": "南京南",
+     "arrive": "10:17",
+     "depart": "10:19"
+    },
+    {
+     "station": "苏州北",
+     "arrive": "11:04",
+     "depart": "11:06"
+    },
+    {
+     "station": "上海",
+     "arrive": "11:33",
+     "depart": "11:33"
+    }
+   ]
+  },
+  "G27": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京南",
+   "终点站": "上海虹桥",
+   "出发时间": "17:04",
+   "到达时间": "21:36",
+   "全程时间": "4小时32分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "北京南",
+     "arrive": "----",
+     "depart": "17:04"
+    },
+    {
+     "station": "济南西",
+     "arrive": "18:27",
+     "depart": "18:29"
+    },
+    {
+     "station": "南京南",
+     "arrive": "20:26",
+     "depart": "20:28"
+    },
+    {
+     "station": "苏州北",
+     "arrive": "21:12",
+     "depart": "21:14"
+    },
+    {
+     "station": "上海虹桥",
+     "arrive": "21:36",
+     "depart": "21:36"
+    }
+   ]
+  },
+  "K79": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "上海松江",
+   "终点站": "昆明",
+   "出发时间": "15:08",
+   "到达时间": "第三天05:13",
+   "全程时间": "38小时5分钟",
+   "火车类型": "普快",
+   "stops": [
+    {
+     "station": "上海松江",
+     "arrive": "----",
+     "depart": "15:08"
+    },
+    {
+     "station": "嘉兴",
+     "arrive": "15:42",
+     "depart": "15:45"
+    },
+    {
+     "station": "杭州南",
+     "arrive": "16:49",
+     "depart": "17:01"
+    },
+    {
+     "station": "诸暨",
+     "arrive": "17:56",
+     "depart": "18:00"
+    },
+    {
+     "station": "义乌",
+     "arrive": "18:36",
+     "depart": "18:42"
+    },
+    {
+     "station": "金华",
+     "arrive": "19:24",
+     "depart": "..."
+    }
+   ]
+  },
+  "Z386": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "海口",
+   "终点站": "长春",
+   "出发时间": "09:20",
+   "到达时间": "第三天11:55",
+   "全程时间": "50小时35分钟",
+   "火车类型": "直达",
+   "stops": [
+    {
+     "station": "海口",
+     "arrive": "----",
+     "depart": "09:20"
+    },
+    {
+     "station": "徐闻",
+     "arrive": "13:17",
+     "depart": "13:48"
+    },
+    {
+     "station": "湛江西",
+     "arrive": "15:20",
+     "depart": "15:48"
+    },
+    {
+     "station": "茂名",
+     "arrive": "16:36",
+     "depart": "16:50"
+    },
+    {
+     "station": "广州白云",
+     "arrive": "21:34",
+     "depart": "22:04"
+    }
+   ]
+  },
+  "G1847": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "烟台",
+   "终点站": "邵阳",
+   "出发时间": "09:46",
+   "到达时间": "22:09",
+   "全程时间": "12小时23分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "烟台",
+     "arrive": "----",
+     "depart": "09:46"
+    },
+    {
+     "station": "莱阳",
+     "arrive": "10:25",
+     "depart": "10:27"
+    },
+    {
+     "station": "即墨北",
+     "arrive": "10:48",
+     "depart": "10:50"
+    },
+    {
+     "station": "青岛西",
+     "arrive": "11:31",
+     "depart": "11:34"
+    },
+    {
+     "station": "日照西",
+     "arrive": "12:04",
+     "depart": "12:08"
+    }
+   ]
+  },
+  "G1684": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "厦门",
+   "终点站": "昆明南",
+   "出发时间": "09:12",
+   "到达时间": "22:56",
+   "全程时间": "13小时44分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "厦门",
+     "arrive": "----",
+     "depart": "09:12"
+    },
+    {
+     "station": "厦门北",
+     "arrive": "09:34",
+     "depart": "09:36"
+    },
+    {
+     "station": "泉港",
+     "arrive": "10:08",
+     "depart": "10:10"
+    },
+    {
+     "station": "莆田",
+     "arrive": "10:21",
+     "depart": "10:23"
+    },
+    {
+     "station": "福州南",
+     "arrive": "10:48",
+     "depart": "10:50"
+    }
+   ]
+  },
+  "K2084": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "海拉尔",
+   "终点站": "大连",
+   "出发时间": "20:50",
+   "到达时间": "次日20:51",
+   "全程时间": "24小时1分钟",
+   "火车类型": "普快",
+   "stops": [
+    {
+     "station": "海拉尔",
+     "arrive": "----",
+     "depart": "20:50"
+    },
+    {
+     "station": "牙克石",
+     "arrive": "22:00",
+     "depart": "22:10"
+    },
+    {
+     "station": "齐齐哈尔",
+     "arrive": "03:31",
+     "depart": "04:15"
+    },
+    {
+     "station": "泰来",
+     "arrive": "05:56",
+     "depart": "05:59"
+    },
+    {
+     "station": "镇赉",
+     "arrive": "06:41",
+     "depart": "06:44"
+    }
+   ]
+  },
+  "C260": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "曹妃甸东",
+   "终点站": "曹妃甸港",
+   "出发时间": "07:21",
+   "到达时间": "08:03",
+   "全程时间": "0小时42分钟",
+   "火车类型": "城际列车",
+   "stops": [
+    {
+     "station": "曹妃甸东",
+     "arrive": "----",
+     "depart": "07:21"
+    },
+    {
+     "station": "唐海南",
+     "arrive": "07:31",
+     "depart": "07:46"
+    },
+    {
+     "station": "曹妃甸港",
+     "arrive": "08:03",
+     "depart": "08:03"
+    }
+   ]
+  },
+  "G2556": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "黄山北",
+   "终点站": "北京南",
+   "出发时间": "07:55",
+   "到达时间": "14:42",
+   "全程时间": "6小时47分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "黄山北",
+     "arrive": "----",
+     "depart": "07:55"
+    },
+    {
+     "station": "歙县北",
+     "arrive": "08:03",
+     "depart": "08:05"
+    },
+    {
+     "station": "绩溪北",
+     "arrive": "08:16",
+     "depart": "08:18"
+    },
+    {
+     "station": "泾县",
+     "arrive": "08:38",
+     "depart": "08:40"
+    },
+    {
+     "station": "铜陵北",
+     "arrive": "08:57",
+     "depart": "08:59"
+    }
+   ]
+  },
+  "G676": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "上海虹桥",
+   "终点站": "汉口",
+   "出发时间": "10:25",
+   "到达时间": "14:44",
+   "全程时间": "4小时19分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "上海虹桥",
+     "arrive": "----",
+     "depart": "10:25"
+    },
+    {
+     "station": "昆山南",
+     "arrive": "10:42",
+     "depart": "10:44"
+    },
+    {
+     "station": "无锡东",
+     "arrive": "11:00",
+     "depart": "11:02"
+    },
+    {
+     "station": "南京南",
+     "arrive": "11:47",
+     "depart": "11:52"
+    },
+    {
+     "station": "合肥南",
+     "arrive": "12:41",
+     "depart": "12:45"
+    }
+   ]
+  },
+  "G7": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京南",
+   "终点站": "上海虹桥",
+   "出发时间": "09:00",
+   "到达时间": "13:37",
+   "全程时间": "4小时37分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "北京南",
+     "arrive": "----",
+     "depart": "09:00"
+    },
+    {
+     "station": "济南西",
+     "arrive": "10:22",
+     "depart": "10:25"
+    },
+    {
+     "station": "南京南",
+     "arrive": "12:24",
+     "depart": "12:26"
+    },
+    {
+     "station": "苏州北",
+     "arrive": "13:11",
+     "depart": "13:13"
+    },
+    {
+     "station": "上海虹桥",
+     "arrive": "13:37",
+     "depart": "13:37"
+    }
+   ]
+  },
+  "G11": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京南",
+   "终点站": "上海虹桥",
+   "出发时间": "10:03",
+   "到达时间": "14:39",
+   "全程时间": "4小时36分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "北京南",
+     "arrive": "----",
+     "depart": "10:03"
+    },
+    {
+     "station": "济南西",
+     "arrive": "11:26",
+     "depart": "11:30"
+    },
+    {
+     "station": "南京南",
+     "arrive": "13:28",
+     "depart": "13:31"
+    },
+    {
+     "station": "常州北",
+     "arrive": "14:00",
+     "depart": "14:02"
+    },
+    {
+     "station": "上海虹桥",
+     "arrive": "14:39",
+     "depart": "14:39"
+    }
+   ]
+  },
+  "G31": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京南",
+   "终点站": "上海虹桥",
+   "出发时间": "18:04",
+   "到达时间": "22:58",
+   "全程时间": "4小时54分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "北京南",
+     "arrive": "----",
+     "depart": "18:04"
+    },
+    {
+     "station": "天津南",
+     "arrive": "18:35",
+     "depart": "18:37"
+    },
+    {
+     "station": "济南西",
+     "arrive": "19:36",
+     "depart": "19:38"
+    },
+    {
+     "station": "徐州东",
+     "arrive": "20:34",
+     "depart": "20:36"
+    },
+    {
+     "station": "常州北",
+     "arrive": "22:09",
+     "depart": "22:11"
+    },
+    {
+     "station": "苏州北",
+     "arrive": "22:32",
+     "depart": "..."
+    }
+   ]
+  },
+  "G55": {
+   "vrid": "70177540",
+   "url": "https://m.pcauto.com.cn/auto/sg8232/?ad=17456&ivyCard=1",
+   "stops": []
+  },
+  "K117": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京西",
+   "终点站": "成都龙泉驿",
+   "出发时间": "11:54",
+   "到达时间": "次日20:44",
+   "全程时间": "32小时50分钟",
+   "火车类型": "普快",
+   "stops": [
+    {
+     "station": "北京西",
+     "arrive": "----",
+     "depart": "11:54"
+    },
+    {
+     "station": "保定",
+     "arrive": "13:25",
+     "depart": "13:29"
+    },
+    {
+     "station": "定州",
+     "arrive": "14:06",
+     "depart": "14:48"
+    },
+    {
+     "station": "石家庄",
+     "arrive": "15:41",
+     "depart": "15:47"
+    },
+    {
+     "station": "邢台",
+     "arrive": "16:50",
+     "depart": "16:52"
+    }
+   ]
+  },
+  "Z21": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "北京西",
+   "终点站": "拉萨",
+   "出发时间": "19:48",
+   "到达时间": "第三天11:46",
+   "全程时间": "39小时58分钟",
+   "火车类型": "直达",
+   "stops": [
+    {
+     "station": "北京西",
+     "arrive": "----",
+     "depart": "19:48"
+    },
+    {
+     "station": "石家庄北",
+     "arrive": "22:24",
+     "depart": "22:30"
+    },
+    {
+     "station": "太原",
+     "arrive": "00:12",
+     "depart": "00:20"
+    },
+    {
+     "station": "中卫",
+     "arrive": "06:56",
+     "depart": "07:16"
+    },
+    {
+     "station": "兰州",
+     "arrive": "12:19",
+     "depart": "12:31"
+    }
+   ]
+  },
+  "T110": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "上海",
+   "终点站": "北京",
+   "出发时间": "16:30",
+   "到达时间": "次日08:33",
+   "全程时间": "16小时3分钟",
+   "火车类型": "特快",
+   "stops": [
+    {
+     "station": "上海",
+     "arrive": "----",
+     "depart": "16:30"
+    },
+    {
+     "station": "苏州",
+     "arrive": "17:20",
+     "depart": "17:25"
+    },
+    {
+     "station": "无锡",
+     "arrive": "17:50",
+     "depart": "17:55"
+    },
+    {
+     "station": "常州",
+     "arrive": "18:18",
+     "depart": "18:23"
+    },
+    {
+     "station": "南京",
+     "arrive": "19:58",
+     "depart": "20:07"
+    },
+    {
+     "station": "徐州",
+     "arrive": "23:17",
+     "depart": "23..."
+    }
+   ]
+  },
+  "D2281": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "南京南",
+   "终点站": "深圳北",
+   "出发时间": "06:32",
+   "到达时间": "20:14",
+   "全程时间": "13小时42分钟",
+   "火车类型": "动车",
+   "stops": [
+    {
+     "station": "南京南",
+     "arrive": "----",
+     "depart": "06:32"
+    },
+    {
+     "station": "镇江",
+     "arrive": "07:00",
+     "depart": "07:02"
+    },
+    {
+     "station": "常州",
+     "arrive": "07:26",
+     "depart": "07:28"
+    },
+    {
+     "station": "无锡",
+     "arrive": "07:43",
+     "depart": "07:45"
+    },
+    {
+     "station": "苏州",
+     "arrive": "08:00",
+     "depart": "08:02"
+    }
+   ]
+  },
+  "G7008": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "上海",
+   "终点站": "南京",
+   "出发时间": "10:00",
+   "到达时间": "11:39",
+   "全程时间": "1小时39分钟",
+   "火车类型": "高铁",
+   "stops": [
+    {
+     "station": "上海",
+     "arrive": "----",
+     "depart": "10:00"
+    },
+    {
+     "station": "苏州",
+     "arrive": "10:25",
+     "depart": "10:27"
+    },
+    {
+     "station": "无锡",
+     "arrive": "10:42",
+     "depart": "10:44"
+    },
+    {
+     "station": "常州",
+     "arrive": "10:58",
+     "depart": "11:00"
+    },
+    {
+     "station": "南京",
+     "arrive": "11:39",
+     "depart": "11:39"
+    }
+   ]
+  },
+  "K511": {
+   "vrid": "70083601",
+   "url": "",
+   "始发站": "上海松江",
+   "终点站": "海口",
+   "出发时间": "16:40",
+   "到达时间": "第三天05:35",
+   "全程时间": "36小时55分钟",
+   "火车类型": "普快",
+   "stops": [
+    {
+     "station": "上海松江",
+     "arrive": "----",
+     "depart": "16:40"
+    },
+    {
+     "station": "嘉兴",
+     "arrive": "17:29",
+     "depart": "17:33"
+    },
+    {
+     "station": "海宁",
+     "arrive": "17:52",
+     "depart": "17:56"
+    },
+    {
+     "station": "杭州南",
+     "arrive": "18:45",
+     "depart": "18:51"
+    },
+    {
+     "station": "诸暨",
+     "arrive": "19:49",
+     "depart": "19:59"
+    }
+   ]
+  }
+ },
+ "web_rows": [
+  {
+   "train": "G677",
+   "site": "百度百科",
+   "title": "G676/G677次列车",
+   "url": "https://baike.baidu.com/item/G676/G677次/23534297",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G677",
+   "site": "ip138查询网",
+   "title": "从上海虹桥开往汉口的G677次列车时刻表",
+   "url": "https://qq.ip138.com/train/G677.htm",
+   "verdict": "match",
+   "basis": "发车时间 10:25（官方 10:25）",
+   "claim_time": "10:25",
+   "claim_route": "上海虹桥→汉口的"
+  },
+  {
+   "train": "G677",
+   "site": "百度百科",
+   "title": "G676/G677次列车",
+   "url": "https://baike.baidu.com/item/G676%2FG677%E6%AC%A1/23534297",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G677",
+   "site": "www.ailieche.com",
+   "title": "G677列车时刻表",
+   "url": "https://www.ailieche.com/g677/",
+   "verdict": "match",
+   "basis": "发车时间 10:25（官方 10:25）",
+   "claim_time": "10:25",
+   "claim_route": "上海虹桥→汉口的高铁列车"
+  },
+  {
+   "train": "G677",
+   "site": "train.hao86.com",
+   "title": "好查列车时刻表G676/G677次列车时刻表",
+   "url": "https://train.hao86.com/G676/",
+   "verdict": "match",
+   "basis": "线路 上海虹桥→汉口全程耗时约（官方 上海虹桥→汉口）",
+   "claim_time": "",
+   "claim_route": "上海虹桥→汉口全程耗时约"
+  },
+  {
+   "train": "G677",
+   "site": "榜眼网络",
+   "title": "G677次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g677.html",
+   "verdict": "match",
+   "basis": "发车时间 10:25（官方 10:25）",
+   "claim_time": "10:25",
+   "claim_route": "上海虹桥→汉口的高铁列车"
+  },
+  {
+   "train": "G677",
+   "site": "train.hao86.com",
+   "title": "G676/G677次列车时刻表",
+   "url": "https://train.hao86.com/G677/",
+   "verdict": "match",
+   "basis": "线路 上海虹桥→汉口全程耗时约（官方 上海虹桥→汉口）",
+   "claim_time": "",
+   "claim_route": "上海虹桥→汉口全程耗时约"
+  },
+  {
+   "train": "G677",
+   "site": "欣欣旅游火车时刻表",
+   "title": "苏州到武汉火车",
+   "url": "https://huoche.cncn.com/train-%CB%D5%D6%DD-%CE%E4%BA%BA",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G677",
+   "site": "江苏反诈网",
+   "title": "上海 到 麻城 高铁时刻表",
+   "url": "http://m.hc12306.com/huoche/GaoTie/shanghai-macheng.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G677",
+   "site": "携程旅行",
+   "title": "南京-麻城北",
+   "url": "https://trains.ctrip.com/TrainBooking/nanjing-machengbei/gaotie",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1",
+   "site": "百度百科",
+   "title": "G1次列车",
+   "url": "https://baike.baidu.com/view/1990939.htm?forcehttps=1?fr=kg_hanyu",
+   "verdict": "match",
+   "basis": "线路 北京南→上海虹桥的高速（官方 北京南→上海虹桥）",
+   "claim_time": "",
+   "claim_route": "北京南→上海虹桥的高速"
+  },
+  {
+   "train": "G1",
+   "site": "去哪儿网",
+   "title": "G1次列车时刻表北京南到上海虹桥高速动车经停站､票价参考",
+   "url": "https://huoche.qunar.com/train/timetable/G1?date=2026-10-16",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1",
+   "site": "搜狗百科",
+   "title": "G1(G1次高速动车组)",
+   "url": "https://baike.sogou.com/v64600390.htm",
+   "verdict": "match",
+   "basis": "线路 北京南→上海虹桥的高铁（官方 北京南→上海虹桥）",
+   "claim_time": "",
+   "claim_route": "北京南→上海虹桥的高铁"
+  },
+  {
+   "train": "G1",
+   "site": "ip138查询网",
+   "title": "从北京南开往上海虹桥的G1次列车时刻表",
+   "url": "https://qq.ip138.com/train/g1.htm",
+   "verdict": "match",
+   "basis": "发车时间 06:30（官方 06:30）",
+   "claim_time": "06:30",
+   "claim_route": "北京南→上海虹桥的"
+  },
+  {
+   "train": "G1",
+   "site": "榜眼网络",
+   "title": "G1次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g1.html",
+   "verdict": "match",
+   "basis": "发车时间 06:30（官方 06:30）",
+   "claim_time": "06:30",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G1",
+   "site": "www.ailieche.com",
+   "title": "G1列车时刻表",
+   "url": "https://www.ailieche.com/g1/",
+   "verdict": "match",
+   "basis": "发车时间 06:30（官方 06:30）",
+   "claim_time": "06:30",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G1",
+   "site": "www.liecheba.com",
+   "title": "北京南到上海虹桥G1次列车途经站点",
+   "url": "https://www.liecheba.com/g1.html",
+   "verdict": "match",
+   "basis": "发车时间 06:30（官方 06:30）",
+   "claim_time": "06:30",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G1",
+   "site": "train.hao86.com",
+   "title": "G1次列车时刻表",
+   "url": "https://train.hao86.com/G1/",
+   "verdict": "mismatch",
+   "basis": "发车时间 07:00（官方 06:30）",
+   "claim_time": "07:00",
+   "claim_route": "北京南→上海全程耗时约"
+  },
+  {
+   "train": "G1",
+   "site": "chinarailway.fandom.com",
+   "title": "G1",
+   "url": "http://chinarailway.fandom.com/wiki/G1",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1",
+   "site": "www.liecheba.com",
+   "title": "沧州西站",
+   "url": "https://www.liecheba.com/hebei/cangzhouxi.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G3",
+   "site": "去哪儿网",
+   "title": "G3次列车时刻表北京南到上海高速动车经停站､票价参考",
+   "url": "https://huoche.qunar.com/train/timetable/G3/beijingnan-to-shanghaihongqiao/2026-10-11",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G3",
+   "site": "去哪儿网",
+   "title": "G3次列车时刻表北京南到上海高速动车经停站､票价参考",
+   "url": "https://huoche.qunar.com/train/timetable/G3?date=2026-10-09",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G3",
+   "site": "www.ailieche.com",
+   "title": "G3列车时刻表",
+   "url": "https://www.ailieche.com/g3/",
+   "verdict": "match",
+   "basis": "发车时间 06:52（官方 06:52）",
+   "claim_time": "06:52",
+   "claim_route": "北京南→上海的高铁列车"
+  },
+  {
+   "train": "G3",
+   "site": "ip138查询网",
+   "title": "从北京南开往上海的G3次列车时刻表",
+   "url": "https://qq.ip138.com/train/g3.htm",
+   "verdict": "match",
+   "basis": "发车时间 06:52（官方 06:52）",
+   "claim_time": "06:52",
+   "claim_route": "北京南→上海的"
+  },
+  {
+   "train": "G3",
+   "site": "百度百科",
+   "title": "G3次列车",
+   "url": "https://baike.baidu.com/item/G3/15437662",
+   "verdict": "match",
+   "basis": "发车时间 06:52（官方 06:52）",
+   "claim_time": "06:52",
+   "claim_route": ""
+  },
+  {
+   "train": "G3",
+   "site": "榜眼网络",
+   "title": "G3次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g3.html",
+   "verdict": "match",
+   "basis": "发车时间 06:52（官方 06:52）",
+   "claim_time": "06:52",
+   "claim_route": "北京南→上海的高铁列车"
+  },
+  {
+   "train": "G3",
+   "site": "trainm.hao86.com",
+   "title": "G3次列车时刻表",
+   "url": "https://trainm.hao86.com/G3/",
+   "verdict": "mismatch",
+   "basis": "发车时间 07:40（官方 06:52）",
+   "claim_time": "07:40",
+   "claim_route": "北京→上海全程耗时约"
+  },
+  {
+   "train": "G3",
+   "site": "高铁旅行网",
+   "title": "G3次高铁途经站点时刻表",
+   "url": "https://www.gaotie.com.cn/checi/G3.html",
+   "verdict": "match",
+   "basis": "线路 北京南→上海共经过（官方 北京南→上海）",
+   "claim_time": "",
+   "claim_route": "北京南→上海共经过"
+  },
+  {
+   "train": "G3",
+   "site": "train.hao86.com",
+   "title": "好查列车时刻表G3103/G3102次列车时刻表",
+   "url": "https://train.hao86.com/G3103/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": "南京南→郑州东全程耗时"
+  },
+  {
+   "train": "G3",
+   "site": "百度百科",
+   "title": "G375次列车",
+   "url": "https://baike.baidu.com/item/G375%E6%AC%A1%E5%88%97%E8%BD%A6/68453956",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "17:55",
+   "claim_route": ""
+  },
+  {
+   "train": "G27",
+   "site": "榜眼网络",
+   "title": "G27次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g27.html",
+   "verdict": "match",
+   "basis": "发车时间 17:04（官方 17:04）",
+   "claim_time": "17:04",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G27",
+   "site": "ip138查询网",
+   "title": "从北京南开往上海虹桥的G27次列车时刻表",
+   "url": "https://qq.ip138.com/train/g27.htm",
+   "verdict": "match",
+   "basis": "发车时间 17:04（官方 17:04）",
+   "claim_time": "17:04",
+   "claim_route": "北京南→上海虹桥的"
+  },
+  {
+   "train": "G27",
+   "site": "百度百科",
+   "title": "G17次列车",
+   "url": "https://baike.baidu.com/item/G17次列车/63744678",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "13:00",
+   "claim_route": "北京南→上海"
+  },
+  {
+   "train": "G27",
+   "site": "高铁旅行网",
+   "title": "G27次高铁途经站点时刻表",
+   "url": "https://www.gaotie.com.cn/checi/G27.html",
+   "verdict": "match",
+   "basis": "线路 北京南→上海虹桥共经过（官方 北京南→上海虹桥）",
+   "claim_time": "",
+   "claim_route": "北京南→上海虹桥共经过"
+  },
+  {
+   "train": "G27",
+   "site": "train.hao86.com",
+   "title": "G27次列车时刻表",
+   "url": "https://train.hao86.com/G27/",
+   "verdict": "mismatch",
+   "basis": "发车时间 19:00（官方 17:04）",
+   "claim_time": "19:00",
+   "claim_route": "北京南→上海全程耗时约"
+  },
+  {
+   "train": "G27",
+   "site": "去哪儿网",
+   "title": "G2727时刻表 / G2727经停站",
+   "url": "https://train.qunar.com/train/timetable/G2727/nanchangxi-to-shenzhen/2026-10-10",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G27",
+   "site": "欣欣旅游火车时刻表",
+   "title": "北京南到上饶火车",
+   "url": "https://huoche.cncn.com/train-%B1%B1%BE%A9%C4%CF-%C9%CF%C8%C4",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G27",
+   "site": "高铁旅行网",
+   "title": "G27次高铁运营历史变化记录",
+   "url": "https://www.gaotie.com.cn/lishi/G27.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G27",
+   "site": "欣欣旅游火车时刻表",
+   "title": "济南西到上饶火车",
+   "url": "https://huoche.cncn.com/train-%BC%C3%C4%CF%CE%F7-%C9%CF%C8%C4",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G27",
+   "site": "百度百科",
+   "title": "G27次列车",
+   "url": "https://baike.baidu.com/item/G27%E6%AC%A1%E5%88%97%E8%BD%A6/22037810",
+   "verdict": "mismatch",
+   "basis": "发车时间 19:00（官方 17:04）",
+   "claim_time": "19:00",
+   "claim_route": ""
+  },
+  {
+   "train": "K79",
+   "site": "ip138查询网",
+   "title": "从上海南开往昆明K79次列车时刻表",
+   "url": "https://qq.ip138.com/train/K79.htm",
+   "verdict": "mismatch",
+   "basis": "发车时间 18:24（官方 15:08）",
+   "claim_time": "18:24",
+   "claim_route": "上海南→昆明的"
+  },
+  {
+   "train": "K79",
+   "site": "www.ailieche.com",
+   "title": "K79列车时刻表",
+   "url": "https://www.ailieche.com/k79/",
+   "verdict": "match",
+   "basis": "发车时间 15:08（官方 15:08）",
+   "claim_time": "15:08",
+   "claim_route": ""
+  },
+  {
+   "train": "K79",
+   "site": "榜眼网络",
+   "title": "K79次列车时刻表",
+   "url": "https://www.crecc.com/huoche/k79.html",
+   "verdict": "match",
+   "basis": "发车时间 15:08（官方 15:08）",
+   "claim_time": "15:08",
+   "claim_route": ""
+  },
+  {
+   "train": "K79",
+   "site": "www.liecheba.com",
+   "title": "上海松江到昆明K79次列车途经站点",
+   "url": "https://www.liecheba.com/k79.html",
+   "verdict": "match",
+   "basis": "发车时间 15:08（官方 15:08）",
+   "claim_time": "15:08",
+   "claim_route": "上海松江→昆明的快速列车"
+  },
+  {
+   "train": "K79",
+   "site": "百度百科",
+   "title": "K79次列车",
+   "url": "https://baike.baidu.com/item/K79次列车/19243830",
+   "verdict": "match",
+   "basis": "发车时间 15:08（官方 15:08）",
+   "claim_time": "15:08",
+   "claim_route": "上海松江→昆明的空调快速旅"
+  },
+  {
+   "train": "K79",
+   "site": "IP.cn",
+   "title": "K79列车时刻表",
+   "url": "https://ip.cn/train/k79.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K79",
+   "site": "去哪儿网",
+   "title": "K79次列车时刻表上海松江到昆明快速经停站､票价参考",
+   "url": "https://train.qunar.com/train/timetable/K79/2026-10-05",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K79",
+   "site": "榜眼网络",
+   "title": "K7901次列车时刻表",
+   "url": "https://www.crecc.com/huoche/k7901.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "07:28",
+   "claim_route": "包头→乌海西的快速列车"
+  },
+  {
+   "train": "K79",
+   "site": "榜眼网络",
+   "title": "K7903次列车时刻表",
+   "url": "https://www.crecc.com/huoche/k7903.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "08:02",
+   "claim_route": "包头东→白云鄂博的快速列"
+  },
+  {
+   "train": "K79",
+   "site": "新浪网",
+   "title": "去昆明高铁时刻表:长三角出发最快8h45min,普速省钱怎么选?FAQ",
+   "url": "https://k.sina.com.cn/article_7879996882_1d5af35d20680202rq.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": "杭州东→昆明南最快仅需"
+  },
+  {
+   "train": "Z386",
+   "site": "ip138查询网",
+   "title": "从海口开往长春的Z386次列车时刻表",
+   "url": "https://qq.ip138.com/train/z386.htm",
+   "verdict": "match",
+   "basis": "发车时间 09:20（官方 09:20）",
+   "claim_time": "09:20",
+   "claim_route": "海口→长春的"
+  },
+  {
+   "train": "Z386",
+   "site": "榜眼网络",
+   "title": "Z386次列车时刻表",
+   "url": "https://www.crecc.com/huoche/z386.html",
+   "verdict": "match",
+   "basis": "发车时间 09:20（官方 09:20）",
+   "claim_time": "09:20",
+   "claim_route": ""
+  },
+  {
+   "train": "Z386",
+   "site": "www.liecheba.com",
+   "title": "海口到长春Z386次列车途经站点",
+   "url": "https://www.liecheba.com/z386.html",
+   "verdict": "match",
+   "basis": "发车时间 09:20（官方 09:20）",
+   "claim_time": "09:20",
+   "claim_route": "海口→长春的直达特快列"
+  },
+  {
+   "train": "Z386",
+   "site": "www.ailieche.com",
+   "title": "Z383列车时刻表",
+   "url": "https://www.ailieche.com/z383/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "09:20",
+   "claim_route": ""
+  },
+  {
+   "train": "Z386",
+   "site": "江苏反诈网",
+   "title": "从海口开往长春的Z386直达特快火车时刻表",
+   "url": "http://m.hc12306.com/huoche/checi/Z386.htm",
+   "verdict": "match",
+   "basis": "发车时间 09:20（官方 09:20）",
+   "claim_time": "09:20",
+   "claim_route": "海口→长春的"
+  },
+  {
+   "train": "Z386",
+   "site": "China Train Guide",
+   "title": "Guangzhou to Shenyang Train Schedule & Ticket Booking",
+   "url": "https://www.chinatrainguide.com/route/guangzhou-to-shenyang",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z386",
+   "site": "百度百科",
+   "title": "Z386/383次列车",
+   "url": "https://baike.baidu.com/item/Z386%E6%AC%A1/23366061",
+   "verdict": "mismatch",
+   "basis": "线路 海南省→东北地区的直达旅（官方 海口→长春）",
+   "claim_time": "",
+   "claim_route": "海南省→东北地区的直达旅"
+  },
+  {
+   "train": "Z386",
+   "site": "ip138查询网",
+   "title": "衡阳列车时刻表",
+   "url": "https://qq.ip138.com/train/hunan/hengyang.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z386",
+   "site": "ip138查询网",
+   "title": "吉安列车时刻表",
+   "url": "https://qq.ip138.com/train/jiangxi/JiAn.htm?updatedata=index",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z386",
+   "site": "ip138查询网",
+   "title": "菏泽列车时刻表",
+   "url": "https://qq.ip138.com/train/shandong/heze.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "ip138查询网",
+   "title": "从烟台开往邵阳的G1847次列车时刻表",
+   "url": "https://qq.ip138.com/train/g1847.htm",
+   "verdict": "match",
+   "basis": "发车时间 09:46（官方 09:46）",
+   "claim_time": "09:46",
+   "claim_route": "烟台→邵阳的"
+  },
+  {
+   "train": "G1847",
+   "site": "百度百科",
+   "title": "G1850/G1847次列车",
+   "url": "https://baike.baidu.com/item/G1850/G1847次列车/62524426",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "www.ailieche.com",
+   "title": "G1850列车时刻表",
+   "url": "https://www.ailieche.com/g1850/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "09:46",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "榜眼网络",
+   "title": "G1847次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g1847.html",
+   "verdict": "match",
+   "basis": "发车时间 09:46（官方 09:46）",
+   "claim_time": "09:46",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "榜眼网络",
+   "title": "G1850次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g1850.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "09:46",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "江苏反诈网",
+   "title": "从烟台开往邵阳的G1847高铁时刻表",
+   "url": "http://www.hc12306.com/huoche/checi/G1847.htm",
+   "verdict": "match",
+   "basis": "发车时间 09:46（官方 09:46）",
+   "claim_time": "09:46",
+   "claim_route": "烟台→邵阳的"
+  },
+  {
+   "train": "G1847",
+   "site": "ip138查询网",
+   "title": "商丘列车时刻表",
+   "url": "https://qq.ip138.com/train/henan/shangqiu.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "ip138查询网",
+   "title": "青岛西列车时刻表",
+   "url": "https://qq.ip138.com/train/shandong/qingdaoxi.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "ip138查询网",
+   "title": "永城北列车时刻表",
+   "url": "https://qq.ip138.com/train/henan/yongchengbei.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1847",
+   "site": "ip138查询网",
+   "title": "驻马店西列车时刻表",
+   "url": "https://qq.ip138.com/train/henan/zhumadianxi.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "ip138查询网",
+   "title": "从厦门开往昆明南的G1684次列车时刻表",
+   "url": "https://qq.ip138.com/train/g1684.htm",
+   "verdict": "match",
+   "basis": "发车时间 09:12（官方 09:12）",
+   "claim_time": "09:12",
+   "claim_route": "厦门→昆明南的"
+  },
+  {
+   "train": "G1684",
+   "site": "www.ailieche.com",
+   "title": "G1684列车时刻表",
+   "url": "https://www.ailieche.com/g1684/",
+   "verdict": "match",
+   "basis": "发车时间 09:12（官方 09:12）",
+   "claim_time": "09:12",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "欣欣旅游火车时刻表",
+   "title": "抚州到长沙南火车",
+   "url": "https://huoche.cncn.com/train-%B8%A7%D6%DD-%B3%A4%C9%B3%C4%CF",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "ip138查询网",
+   "title": "怀化南列车时刻表",
+   "url": "https://qq.ip138.com/train/hunan/huaihuanan.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "ip138查询网",
+   "title": "南昌西列车时刻表",
+   "url": "https://qq.ip138.com/train/jiangxi/nanchangxi.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "ip138查询网",
+   "title": "宜春列车时刻表",
+   "url": "https://qq.ip138.com/train/jiangxi/yichun.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "www.liecheba.com",
+   "title": "泉港站",
+   "url": "https://www.liecheba.com/fujian/quangang.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "携程旅行",
+   "title": "厦门-新化 单程 2026-10-09 (共4车次)",
+   "url": "https://trains.ctrip.com/TrainBooking/xiamen-xinhua/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "欣欣旅游火车时刻表",
+   "title": "仙游到长沙南火车_仙游到长沙南火车时刻表",
+   "url": "https://huoche.cncn.com/train-%CF%C9%D3%CE-%B3%A4%C9%B3%C4%CF",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G1684",
+   "site": "携程旅行",
+   "title": "厦门-泰宁 单程 2026-11-04 (共7车次)",
+   "url": "https://trains.ctrip.com/TrainBooking/xiamen-taining/gaotie",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "ip138查询网",
+   "title": "从海拉尔开往大连的K2084次列车时刻表",
+   "url": "https://qq.ip138.com/train/k2084.htm",
+   "verdict": "match",
+   "basis": "发车时间 20:50（官方 20:50）",
+   "claim_time": "20:50",
+   "claim_route": "海拉尔→大连的"
+  },
+  {
+   "train": "K2084",
+   "site": "www.ailieche.com",
+   "title": "K2084列车时刻表",
+   "url": "https://www.ailieche.com/k2084/",
+   "verdict": "match",
+   "basis": "发车时间 20:50（官方 20:50）",
+   "claim_time": "20:50",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "www.liecheba.com",
+   "title": "海拉尔到大连K2084次列车途经站点",
+   "url": "https://www.liecheba.com/k2084.html",
+   "verdict": "match",
+   "basis": "发车时间 20:50（官方 20:50）",
+   "claim_time": "20:50",
+   "claim_route": "海拉尔→大连的快速列车"
+  },
+  {
+   "train": "K2084",
+   "site": "www.liecheba.com",
+   "title": "盖州站",
+   "url": "https://www.liecheba.com/liaoning/gaizhou.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "ip138查询网",
+   "title": "齐齐哈尔列车时刻表",
+   "url": "https://qq.ip138.com/train/heilongjiang/qiqihaer.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "ip138查询网",
+   "title": "鞍山列车时刻表",
+   "url": "https://qq.ip138.com/train/liaoning/anshan.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "火车换",
+   "title": "镇江列车站时刻表",
+   "url": "http://huochehuan.com/chezhan/zhenjiang_0_2/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "ip138查询网",
+   "title": "镇赉列车时刻表",
+   "url": "https://qq.ip138.com/train/jilin/LaiZhen.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "www.liecheba.com",
+   "title": "通榆列车时刻表",
+   "url": "https://www.liecheba.com/jilin/tongyu.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K2084",
+   "site": "ip138查询网",
+   "title": "瓦房店列车时刻表",
+   "url": "https://qq.ip138.com/train/liaoning/wafangdian.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "ip138查询网",
+   "title": "从曹妃甸东开往曹妃甸港的C260次列车时刻表",
+   "url": "https://qq.ip138.com/train/c260.htm",
+   "verdict": "match",
+   "basis": "发车时间 07:21（官方 07:21）",
+   "claim_time": "07:21",
+   "claim_route": "曹妃甸东→曹妃甸港的"
+  },
+  {
+   "train": "C260",
+   "site": "train.hao86.com",
+   "title": "C260/C259次列车时刻表",
+   "url": "https://train.hao86.com/C260",
+   "verdict": "match",
+   "basis": "线路 曹妃甸东→曹妃甸港全程耗（官方 曹妃甸东→曹妃甸港）",
+   "claim_time": "",
+   "claim_route": "曹妃甸东→曹妃甸港全程耗"
+  },
+  {
+   "train": "C260",
+   "site": "chineserailwaywiki.miraheze.org",
+   "title": "曹妃甸区内动集列车",
+   "url": "https://chineserailwaywiki.miraheze.org/wiki/%E6%9B%B9%E5%A6%83%E7%94%B8%E5%8C%BA%E5%86%85%E5%8A%A8%E9%9B%86%E5%88%97%E8%BD%A6",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "榜眼网络",
+   "title": "曹妃甸港站列车时刻表",
+   "url": "https://www.crecc.com/hebei/tangshan/caofeidiangang.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "榜眼网络",
+   "title": "曹妃甸东站列车时刻表",
+   "url": "https://www.crecc.com/hebei/tangshan/caofeidiandong.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "www.liecheba.com",
+   "title": "唐海南站",
+   "url": "https://www.liecheba.com/hebei/tanghainan.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "chineserailwaywiki.miraheze.org",
+   "title": "曹妃甸区内动集列车 - 版本历史",
+   "url": "https://chineserailwaywiki.miraheze.org/wiki/%E6%9B%B9%E5%A6%83%E7%94%B8%E5%8C%BA%E5%86%85%E5%8A%A8%E9%9B%86%E5%88%97%E8%BD%A6?&action=history&feed=atom",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "www.liecheba.com",
+   "title": "曹妃甸东站",
+   "url": "https://www.liecheba.com/hebei/caofeidiandong.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "携程旅行",
+   "title": "曹妃甸东到南堡北火车票预订与代购-高铁票价,动车票价-高铁订票,动车订票网-携程火车票订购中心",
+   "url": "https://trains.ctrip.com/trainBooking/search?fromCn=%E6%9B%B9%E5%A6%83%E7%94%B8%E4%B8%9C&ticketType=0&toCn=%E5%8D%97%E5%A0%A1%E5%8C%97",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "C260",
+   "site": "ip138查询网",
+   "title": "C260次列车",
+   "url": "https://qq.ip138.com/huoche/c260/",
+   "verdict": "match",
+   "basis": "发车时间 07:21（官方 07:21）",
+   "claim_time": "07:21",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "ip138查询网",
+   "title": "从黄山北开往北京南的G2556次列车时刻表",
+   "url": "https://qq.ip138.com/train/g2556.htm",
+   "verdict": "match",
+   "basis": "发车时间 07:55（官方 07:55）",
+   "claim_time": "07:55",
+   "claim_route": "黄山北→北京南的"
+  },
+  {
+   "train": "G2556",
+   "site": "train.hao86.com",
+   "title": "G2556次列车时刻表",
+   "url": "https://train.hao86.com/G2556/",
+   "verdict": "match",
+   "basis": "线路 黄山北→北京南全程耗时（官方 黄山北→北京南）",
+   "claim_time": "",
+   "claim_route": "黄山北→北京南全程耗时"
+  },
+  {
+   "train": "G2556",
+   "site": "去哪儿网",
+   "title": "G2556次列车时刻表黄山北到北京南高铁经停站､票价参考",
+   "url": "https://train.qunar.com/train/timetable/G2556",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "携程旅行",
+   "title": "黄山-徐州东",
+   "url": "https://trains.ctrip.com/trainbooking/huangshan-xuzhoudong",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "携程旅行",
+   "title": "合肥南-北京南 单程 2026-11-03 (共29车次)",
+   "url": "https://trains.ctrip.com/TrainBooking/hefeinan-beijingnan",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "去哪儿网",
+   "title": "G3940次列车时刻表合肥西到北京西高铁经停站､票价参考",
+   "url": "https://train.qunar.com/train/timetable/G3940/2026-10-09",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "携程旅行",
+   "title": "合肥南-徐州东 单程 2026-11-03 (共23车次)",
+   "url": "https://trains.ctrip.com/TrainBooking/hefeinan-xuzhoudong/gaotie",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "高铁旅行网",
+   "title": "G2556次高铁运营历史变化记录",
+   "url": "https://www.gaotie.com.cn/lishi/G2556.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "ip138查询网",
+   "title": "曲阜东列车时刻表",
+   "url": "https://qq.ip138.com/train/shandong/qufudong.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G2556",
+   "site": "携程旅行",
+   "title": "合肥-北京南 单程 2026-11-02 (共24车次)",
+   "url": "https://trains.ctrip.com/trainbooking/hefei-beijingnan/gaotie/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G676",
+   "site": "百度百科",
+   "title": "G676/G677次列车",
+   "url": "https://baike.baidu.com/item/G676%2FG677%E6%AC%A1/23534297",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G676",
+   "site": "www.ailieche.com",
+   "title": "G676列车时刻表",
+   "url": "https://www.ailieche.com/g676/",
+   "verdict": "match",
+   "basis": "发车时间 10:25（官方 10:25）",
+   "claim_time": "10:25",
+   "claim_route": "上海虹桥→汉口的高铁列车"
+  },
+  {
+   "train": "G676",
+   "site": "ip138查询网",
+   "title": "从上海虹桥开往汉口的G676次列车时刻表",
+   "url": "https://qq.ip138.com/train/G676.htm",
+   "verdict": "match",
+   "basis": "发车时间 10:25（官方 10:25）",
+   "claim_time": "10:25",
+   "claim_route": "上海虹桥→汉口的"
+  },
+  {
+   "train": "G676",
+   "site": "榜眼网络",
+   "title": "G676次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g676.html",
+   "verdict": "match",
+   "basis": "发车时间 10:25（官方 10:25）",
+   "claim_time": "10:25",
+   "claim_route": "上海虹桥→汉口的高铁列车"
+  },
+  {
+   "train": "G676",
+   "site": "欣欣旅游火车时刻表",
+   "title": "无锡东到合肥南火车",
+   "url": "https://huoche.cncn.com/train-%CE%DE%CE%FD%B6%AB-%BA%CF%B7%CA%C4%CF",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G676",
+   "site": "欣欣旅游火车时刻表",
+   "title": "无锡到武汉火车",
+   "url": "https://huoche.cncn.com/train-%CE%DE%CE%FD-%CE%E4%BA%BA",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G676",
+   "site": "train.hao86.com",
+   "title": "好查列车时刻表G676/G677次列车时刻表",
+   "url": "https://train.hao86.com/G676/",
+   "verdict": "match",
+   "basis": "线路 上海虹桥→汉口全程耗时约（官方 上海虹桥→汉口）",
+   "claim_time": "",
+   "claim_route": "上海虹桥→汉口全程耗时约"
+  },
+  {
+   "train": "G676",
+   "site": "携程旅行",
+   "title": "无锡-武汉 单程 2026-11-06 (共21车次)",
+   "url": "https://trains.ctrip.com/trainbooking/wuxi-wuhan/gaotie",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G676",
+   "site": "欣欣旅游火车时刻表",
+   "title": "苏州到武汉火车",
+   "url": "https://huoche.cncn.com/train-%CB%D5%D6%DD-%CE%E4%BA%BA",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G676",
+   "site": "train.hao86.com",
+   "title": "G676/G677次列车时刻表",
+   "url": "https://train.hao86.com/G677/",
+   "verdict": "match",
+   "basis": "线路 上海虹桥→汉口全程耗时约（官方 上海虹桥→汉口）",
+   "claim_time": "",
+   "claim_route": "上海虹桥→汉口全程耗时约"
+  },
+  {
+   "train": "G7",
+   "site": "去哪儿网",
+   "title": "G7次列车时刻表北京南到上海虹桥高速动车经停站､票价参考",
+   "url": "https://huoche.qunar.com/train/timetable/G7",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7",
+   "site": "train.hao86.com",
+   "title": "G7次列车时刻表",
+   "url": "https://train.hao86.com/G7/",
+   "verdict": "mismatch",
+   "basis": "发车时间 10:00（官方 09:00）",
+   "claim_time": "10:00",
+   "claim_route": "北京南→上海虹桥全程耗"
+  },
+  {
+   "train": "G7",
+   "site": "榜眼网络",
+   "title": "G7次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g7.html",
+   "verdict": "match",
+   "basis": "发车时间 09:00（官方 09:00）",
+   "claim_time": "09:00",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G7",
+   "site": "www.ailieche.com",
+   "title": "G7列车时刻表",
+   "url": "https://www.ailieche.com/g7/",
+   "verdict": "match",
+   "basis": "发车时间 09:00（官方 09:00）",
+   "claim_time": "09:00",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G7",
+   "site": "ip138查询网",
+   "title": "从北京南开往上海虹桥的G7次列车时刻表",
+   "url": "https://qq.ip138.com/train/g7.htm",
+   "verdict": "match",
+   "basis": "发车时间 09:00（官方 09:00）",
+   "claim_time": "09:00",
+   "claim_route": "北京南→上海虹桥的"
+  },
+  {
+   "train": "G7",
+   "site": "百度百科",
+   "title": "G7次列车",
+   "url": "https://baike.baidu.com/item/g7%E6%AC%A1%E5%88%97%E8%BD%A6/63771636",
+   "verdict": "match",
+   "basis": "发车时间 09:00（官方 09:00）",
+   "claim_time": "09:00",
+   "claim_route": "北京南→上海虹桥仅用时"
+  },
+  {
+   "train": "G7",
+   "site": "www.liecheba.com",
+   "title": "北京南到上海虹桥G7次列车途经站点",
+   "url": "https://www.liecheba.com/g7.html",
+   "verdict": "match",
+   "basis": "发车时间 09:00（官方 09:00）",
+   "claim_time": "09:00",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G7",
+   "site": "高铁旅行网",
+   "title": "G7次高铁途经站点时刻表",
+   "url": "https://www.gaotie.com.cn/checi/G7.html",
+   "verdict": "match",
+   "basis": "线路 北京南→上海虹桥共经过（官方 北京南→上海虹桥）",
+   "claim_time": "",
+   "claim_route": "北京南→上海虹桥共经过"
+  },
+  {
+   "train": "G7",
+   "site": "chinarailway.fandom.com",
+   "title": "G7",
+   "url": "https://chinarailway.fandom.com/wiki/G7",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7",
+   "site": "江苏反诈网",
+   "title": "从北京南开往上海虹桥的G7高铁时刻表",
+   "url": "http://m.hc12306.com/huoche/checi/G7.htm",
+   "verdict": "match",
+   "basis": "发车时间 09:00（官方 09:00）",
+   "claim_time": "09:00",
+   "claim_route": "北京南→上海虹桥的"
+  },
+  {
+   "train": "G11",
+   "site": "ip138查询网",
+   "title": "从北京南开往上海虹桥的G11次列车时刻表",
+   "url": "https://qq.ip138.com/train/g11.htm",
+   "verdict": "match",
+   "basis": "发车时间 10:03（官方 10:03）",
+   "claim_time": "10:03",
+   "claim_route": "北京南→上海虹桥的"
+  },
+  {
+   "train": "G11",
+   "site": "train.hao86.com",
+   "title": "G11次列车时刻表",
+   "url": "https://train.hao86.com/G11/",
+   "verdict": "mismatch",
+   "basis": "发车时间 12:00（官方 10:03）",
+   "claim_time": "12:00",
+   "claim_route": "北京南→上海虹桥全程耗"
+  },
+  {
+   "train": "G11",
+   "site": "欣欣旅游火车时刻表",
+   "title": "北京南到济南西火车_北京南到济南西火车时刻表",
+   "url": "https://huoche.cncn.com/train-%B1%B1%BE%A9%C4%CF-%BC%C3%C4%CF%CE%F7",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G11",
+   "site": "www.ailieche.com",
+   "title": "G11列车时刻表",
+   "url": "https://www.ailieche.com/g11/",
+   "verdict": "match",
+   "basis": "发车时间 10:03（官方 10:03）",
+   "claim_time": "10:03",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G11",
+   "site": "高铁旅行网",
+   "title": "G11次高铁途经站点时刻表",
+   "url": "https://www.gaotie.com.cn/checi/G11.html",
+   "verdict": "match",
+   "basis": "线路 北京南→上海虹桥共经过（官方 北京南→上海虹桥）",
+   "claim_time": "",
+   "claim_route": "北京南→上海虹桥共经过"
+  },
+  {
+   "train": "G11",
+   "site": "榜眼网络",
+   "title": "G11次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g11.html",
+   "verdict": "match",
+   "basis": "发车时间 10:03（官方 10:03）",
+   "claim_time": "10:03",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G11",
+   "site": "ip138查询网",
+   "title": "济南西列车时刻表",
+   "url": "https://qq.ip138.com/train/shandong/jinanxi.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G11",
+   "site": "同程旅行",
+   "title": "北京 - 常州",
+   "url": "https://m.ly.com/trainnin1/touch/#/list?startdatetime=2026-11-08&startcity=北京&arrivecity=常州&refid=2000411779&refId=2000411779",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G11",
+   "site": "票价网",
+   "title": "北京到上海火车时刻表",
+   "url": "https://m.piaojia.cn/huoche/result.asp?from=%E5%8C%97%E4%BA%AC&to=%E4%B8%8A%E6%B5%B7&date=2026/5/13&dc=1",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G11",
+   "site": "百度百科",
+   "title": "G11次列车",
+   "url": "https://baike.baidu.com/item/G11%E6%AC%A1%E5%88%97%E8%BD%A6/63785401",
+   "verdict": "mismatch",
+   "basis": "发车时间 12:00（官方 10:03）",
+   "claim_time": "12:00",
+   "claim_route": ""
+  },
+  {
+   "train": "G31",
+   "site": "ip138查询网",
+   "title": "从北京南开往上海虹桥的G31次列车时刻表",
+   "url": "https://qq.ip138.com/train/G31.htm",
+   "verdict": "match",
+   "basis": "发车时间 18:04（官方 18:04）",
+   "claim_time": "18:04",
+   "claim_route": "北京南→上海虹桥的"
+  },
+  {
+   "train": "G31",
+   "site": "榜眼网络",
+   "title": "G31次列车时刻表",
+   "url": "https://www.crecc.com/huoche/g31.html",
+   "verdict": "match",
+   "basis": "发车时间 18:04（官方 18:04）",
+   "claim_time": "18:04",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G31",
+   "site": "www.ailieche.com",
+   "title": "G31列车时刻表",
+   "url": "https://www.ailieche.com/g31/",
+   "verdict": "match",
+   "basis": "发车时间 18:04（官方 18:04）",
+   "claim_time": "18:04",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G31",
+   "site": "train.hao86.com",
+   "title": "G31次列车时刻表",
+   "url": "https://train.hao86.com/G31/",
+   "verdict": "mismatch",
+   "basis": "发车时间 07:56（官方 18:04）",
+   "claim_time": "07:56",
+   "claim_route": "北京南→杭州东全程耗时"
+  },
+  {
+   "train": "G31",
+   "site": "百度百科",
+   "title": "G31次",
+   "url": "https://baike.baidu.com/item/G31%E6%AC%A1/23292092",
+   "verdict": "match",
+   "basis": "线路 北京南→上海虹桥（官方 北京南→上海虹桥）",
+   "claim_time": "",
+   "claim_route": "北京南→上海虹桥"
+  },
+  {
+   "train": "G31",
+   "site": "www.liecheba.com",
+   "title": "北京南到上海虹桥G31次列车途经站点",
+   "url": "https://www.liecheba.com/g31.html",
+   "verdict": "match",
+   "basis": "发车时间 18:04（官方 18:04）",
+   "claim_time": "18:04",
+   "claim_route": "北京南→上海虹桥的高铁列"
+  },
+  {
+   "train": "G31",
+   "site": "train.hao86.com",
+   "title": "好查列车时刻表G3103/G3102次列车时刻表",
+   "url": "https://train.hao86.com/G3103/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": "南京南→郑州东全程耗时"
+  },
+  {
+   "train": "G31",
+   "site": "高铁旅行网",
+   "title": "G31次高铁运营历史变化记录",
+   "url": "https://www.gaotie.com.cn/lishi/G31.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G31",
+   "site": "欣欣旅游火车时刻表",
+   "title": "北京到杭州火车_北京到杭州火车时刻表",
+   "url": "https://huoche.cncn.com/train-%B1%B1%BE%A9-%BA%BC%D6%DD",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G31",
+   "site": "ip138查询网",
+   "title": "从太原南开往上海虹桥的G3131次列车时刻表",
+   "url": "https://qq.ip138.com/train/g3131.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "08:52",
+   "claim_route": "太原南→上海虹桥的"
+  },
+  {
+   "train": "G55",
+   "site": "百度百科",
+   "title": "G55次列车",
+   "url": "https://baike.baidu.com/item/G55次列车/22043941",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "18:45",
+   "claim_route": ""
+  },
+  {
+   "train": "G55",
+   "site": "train.hao86.com",
+   "title": "G55次列车时刻表",
+   "url": "https://train.hao86.com/G55/",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "09:55",
+   "claim_route": "北京西→西安北全程耗时"
+  },
+  {
+   "train": "G55",
+   "site": "ip138查询网",
+   "title": "从北京开往合肥南的G55次列车时刻表",
+   "url": "https://qq.ip138.com/train/g55.htm",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "18:45",
+   "claim_route": "北京→合肥南的"
+  },
+  {
+   "train": "G55",
+   "site": "百度百科",
+   "title": "G55次列车",
+   "url": "https://baike.baidu.com/item/G55%E6%AC%A1%E5%88%97%E8%BD%A6/22043941",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "18:45",
+   "claim_route": ""
+  },
+  {
+   "train": "G55",
+   "site": "www.ailieche.com",
+   "title": "G55列车时刻表",
+   "url": "https://www.ailieche.com/g55/",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "18:45",
+   "claim_route": "北京→合肥南的高铁列车"
+  },
+  {
+   "train": "G55",
+   "site": "高铁旅行网",
+   "title": "G55次高铁运营历史变化记录",
+   "url": "https://www.gaotie.com.cn/lishi/G55.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G55",
+   "site": "欣欣旅游火车时刻表",
+   "title": "济南西到宁波火车_济南西到宁波火车时刻表",
+   "url": "https://huoche.cncn.com/train-%BC%C3%C4%CF%CE%F7-%C4%FE%B2%A8",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G55",
+   "site": "chinarailway.fandom.com",
+   "title": "G365",
+   "url": "https://chinarailway.fandom.com/wiki/G365",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G55",
+   "site": "欣欣旅游火车时刻表",
+   "title": "德州到宁波火车_德州到宁波火车时刻表",
+   "url": "https://huoche.cncn.com/train-%B5%C2%D6%DD-%C4%FE%B2%A8",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G55",
+   "site": "train.hao86.com",
+   "title": "好查列车时刻表G5542/G5543次列车时刻表",
+   "url": "https://train.hao86.com/G5543/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": "青岛→莘县全程耗时约"
+  },
+  {
+   "train": "K117",
+   "site": "chineserailwaywiki.miraheze.org",
+   "title": "北京-成都快速列车",
+   "url": "https://chineserailwaywiki.miraheze.org/wiki/%E5%8C%97%E4%BA%AC-%E6%88%90%E9%83%BD%E5%BF%AB%E9%80%9F%E5%88%97%E8%BD%A6?mobileaction=toggle_view_desktop&oldid=15757%EF%BC%8E",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "wiki.gdrain.workers.dev",
+   "title": "K117/118次列車",
+   "url": "https://wiki.gdrain.workers.dev/zh-tw/K117/118%E6%AC%A1%E5%88%97%E8%BD%A6",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "去哪儿网",
+   "title": "K117次列车时刻表新乡到郑州快速经停站､票价参考",
+   "url": "https://train.qunar.com/train/timetable/K117/xinxiang-to-zhengzhou/2026-10-20",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "榜眼网络",
+   "title": "K117次列车时刻表",
+   "url": "https://www.crecc.com/huoche/k117.html",
+   "verdict": "match",
+   "basis": "发车时间 11:54（官方 11:54）",
+   "claim_time": "11:54",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "chineserailwaywiki.miraheze.org",
+   "title": "北京-成都快速列车",
+   "url": "https://chineserailwaywiki.miraheze.org/wiki/%E5%8C%97%E4%BA%AC-%E6%88%90%E9%83%BD%E5%BF%AB%E9%80%9F%E5%88%97%E8%BD%A6?mobileaction=toggle_view_desktop&oldid=12673%EF%BC%8E",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "www.liecheba.com",
+   "title": "北京西到成都龙泉驿K117次列车途经站点",
+   "url": "https://www.liecheba.com/k117.html",
+   "verdict": "match",
+   "basis": "发车时间 11:54（官方 11:54）",
+   "claim_time": "11:54",
+   "claim_route": "北京西→成都龙泉驿的快速"
+  },
+  {
+   "train": "K117",
+   "site": "www.ailieche.com",
+   "title": "K1117列车时刻表",
+   "url": "https://www.ailieche.com/k1117/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "20:22",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "ip138查询网",
+   "title": "安康列车时刻表",
+   "url": "https://qq.ip138.com/train/shanxi/ankang.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "Wikiwand",
+   "title": "K117/118次列车",
+   "url": "https://www.wikiwand.com/zh-tw/articles/K117/118次列车",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K117",
+   "site": "ip138查询网",
+   "title": "郑州列车时刻表",
+   "url": "https://qq.ip138.com/train/henan/zhengzhou.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "www.fbrowser.org",
+   "title": "Z21/22次列车",
+   "url": "https://www.fbrowser.org/wikipedia/wiki/T27%E6%AC%A1%E5%88%97%E8%BD%A6",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "www.fbrowser.org",
+   "title": "Z21/22次列車",
+   "url": "https://www.fbrowser.org/wikipedia/zh-tw/Z21/22%E6%AC%A1%E5%88%97%E8%BD%A6",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "榜眼网络",
+   "title": "Z21次列车时刻表",
+   "url": "https://www.crecc.com/huoche/z21.html",
+   "verdict": "match",
+   "basis": "发车时间 19:48（官方 19:48）",
+   "claim_time": "19:48",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "www.ailieche.com",
+   "title": "Z21列车时刻表",
+   "url": "https://www.ailieche.com/z21/",
+   "verdict": "match",
+   "basis": "发车时间 19:48（官方 19:48）",
+   "claim_time": "19:48",
+   "claim_route": "北京西→拉萨的直达特快列"
+  },
+  {
+   "train": "Z21",
+   "site": "train.hao86.com",
+   "title": "Z21次列车时刻表",
+   "url": "https://train.hao86.com/Z21/",
+   "verdict": "mismatch",
+   "basis": "发车时间 19:22（官方 19:48）",
+   "claim_time": "19:22",
+   "claim_route": "北京西→拉萨全程耗时约"
+  },
+  {
+   "train": "Z21",
+   "site": "chineserailwaywiki.miraheze.org",
+   "title": "北京-拉萨直达特快列车",
+   "url": "https://chineserailwaywiki.miraheze.org/wiki/%E5%8C%97%E4%BA%AC-%E6%8B%89%E8%90%A8%E7%9B%B4%E8%BE%BE%E7%89%B9%E5%BF%AB%E5%88%97%E8%BD%A6?mobileaction=toggle_view_desktop&section=5",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "chineserailwaywiki.miraheze.org",
+   "title": "北京-拉萨直达特快列车",
+   "url": "https://chineserailwaywiki.miraheze.org/wiki/%E5%8C%97%E4%BA%AC-%E6%8B%89%E8%90%A8%E7%9B%B4%E8%BE%BE%E7%89%B9%E5%BF%AB%E5%88%97%E8%BD%A6?mobileaction=toggle_view_desktop&oldid=5138",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "高铁旅行网",
+   "title": "Z21次列车运营历史变化记录",
+   "url": "https://www.gaotie.com.cn/lishi/Z21.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "百度百科",
+   "title": "Z21/22次列车",
+   "url": "https://baike.baidu.com/item/Z21%2F22次列车/20827465",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "Z21",
+   "site": "China Train Guide",
+   "title": "Lanzhou to Delingha Train Schedule & Ticket Booking",
+   "url": "https://www.chinatrainguide.com/route/lanzhou-to-delingha",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "T110",
+   "site": "ip138查询网",
+   "title": "从上海开往北京的T110次列车时刻表",
+   "url": "https://qq.ip138.com/train/t110.htm",
+   "verdict": "match",
+   "basis": "发车时间 16:30（官方 16:30）",
+   "claim_time": "16:30",
+   "claim_route": "上海→北京的"
+  },
+  {
+   "train": "T110",
+   "site": "去哪儿网",
+   "title": "T110次列车时刻表上海到北京特快经停站､票价参考",
+   "url": "https://train.qunar.com/train/timetable/T110/shanghai-to-beijing/2026-09-30",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "T110",
+   "site": "榜眼网络",
+   "title": "T110次列车时刻表",
+   "url": "https://www.crecc.com/huoche/t110.html",
+   "verdict": "match",
+   "basis": "发车时间 16:30（官方 16:30）",
+   "claim_time": "16:30",
+   "claim_route": ""
+  },
+  {
+   "train": "T110",
+   "site": "www.ailieche.com",
+   "title": "T110列车时刻表",
+   "url": "https://www.ailieche.com/t110/",
+   "verdict": "match",
+   "basis": "发车时间 16:30（官方 16:30）",
+   "claim_time": "16:30",
+   "claim_route": "上海→北京的特快列车"
+  },
+  {
+   "train": "T110",
+   "site": "江苏反诈网",
+   "title": "从上海开往北京的T110特快火车时刻表",
+   "url": "http://m.hc12306.com/huoche/checi/T110.htm",
+   "verdict": "match",
+   "basis": "发车时间 16:30（官方 16:30）",
+   "claim_time": "16:30",
+   "claim_route": "上海→北京的"
+  },
+  {
+   "train": "T110",
+   "site": "chineserailwaywiki.miraheze.org",
+   "title": "北京-上海特快列车",
+   "url": "https://chineserailwaywiki.miraheze.org/wiki/%E5%8C%97%E4%BA%AC-%E4%B8%8A%E6%B5%B7%E7%89%B9%E5%BF%AB%E5%88%97%E8%BD%A6",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "T110",
+   "site": "高铁旅行网",
+   "title": "T110次列车运营历史变化记录",
+   "url": "https://www.gaotie.com.cn/lishi/T110.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "T110",
+   "site": "百度百科",
+   "title": "T109/110次列车",
+   "url": "https://baike.baidu.com/item/T109%2F110%E6%AC%A1%E5%88%97%E8%BD%A6/20119116",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "T110",
+   "site": "wiki.gdrain.workers.dev",
+   "title": "T109/110次列车[编辑]",
+   "url": "https://wiki.gdrain.workers.dev/zh-hans/T109/110%E6%AC%A1%E5%88%97%E8%BD%A6",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "T110",
+   "site": "ip138查询网",
+   "title": "沧州列车时刻表",
+   "url": "https://qq.ip138.com/train/hebei/cangzhou.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "ip138查询网",
+   "title": "从南京南开往深圳北的D2281次列车时刻表",
+   "url": "https://qq.ip138.com/train/d2281.htm",
+   "verdict": "match",
+   "basis": "发车时间 06:32（官方 06:32）",
+   "claim_time": "06:32",
+   "claim_route": "南京南→深圳北的"
+  },
+  {
+   "train": "D2281",
+   "site": "榜眼网络",
+   "title": "D2281次列车时刻表",
+   "url": "https://www.crecc.com/huoche/d2281.html",
+   "verdict": "match",
+   "basis": "发车时间 06:32（官方 06:32）",
+   "claim_time": "06:32",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "www.ailieche.com",
+   "title": "D2280列车时刻表",
+   "url": "https://www.ailieche.com/d2280/",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "06:32",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "去哪儿网",
+   "title": "D2281次列车时刻表南京南到深圳北动车组经停站､票价参考",
+   "url": "https://train.qunar.com/train/timetable/D2281",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "China Train Guide",
+   "title": "Ningbo to Shenzhen Train Schedule & Ticket Booking",
+   "url": "https://www.chinatrainguide.com/route/ningbo-to-shenzhen",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "China Train Guide",
+   "title": "Ningbo to Chaoshan Train Schedule & Ticket Booking",
+   "url": "https://www.chinatrainguide.com/route/ningbo-to-chaoshan",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "欣欣旅游火车时刻表",
+   "title": "杭州到惠州火车_杭州到惠州火车时刻表",
+   "url": "https://huoche.cncn.com/train-%BA%BC%D6%DD-%BB%DD%D6%DD",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "欣欣旅游火车时刻表",
+   "title": "宁波到温州火车_宁波到温州火车时刻表",
+   "url": "https://huoche.cncn.com/train-%C4%FE%B2%A8-%CE%C2%D6%DD",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "携程旅行",
+   "title": "南京南-杭州东 单程 2026-11-09 (共17车次)",
+   "url": "https://trains.ctrip.com/TrainBooking/nanjingnan-hangzhoudong/dongche",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "D2281",
+   "site": "欣欣旅游火车时刻表",
+   "title": "杭州到厦门火车_杭州到厦门火车时刻表",
+   "url": "https://huoche.cncn.com/train-%BA%BC%D6%DD-%CF%C3%C3%C5",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7008",
+   "site": "train.hao86.com",
+   "title": "G7008次列车时刻表",
+   "url": "https://train.hao86.com/G7008/",
+   "verdict": "match",
+   "basis": "发车时间 10:00（官方 10:00）",
+   "claim_time": "10:00",
+   "claim_route": "上海→南京全程耗时约"
+  },
+  {
+   "train": "G7008",
+   "site": "ip138查询网",
+   "title": "从上海开往南京的G7008次列车时刻表",
+   "url": "https://qq.ip138.com/train/G7008.htm",
+   "verdict": "match",
+   "basis": "发车时间 10:00（官方 10:00）",
+   "claim_time": "10:00",
+   "claim_route": "上海→南京的"
+  },
+  {
+   "train": "G7008",
+   "site": "www.ailieche.com",
+   "title": "G7008列车时刻表",
+   "url": "https://www.ailieche.com/g7008/",
+   "verdict": "match",
+   "basis": "发车时间 10:00（官方 10:00）",
+   "claim_time": "10:00",
+   "claim_route": "上海→南京的高铁列车"
+  },
+  {
+   "train": "G7008",
+   "site": "江苏反诈网",
+   "title": "从上海开往南京的G7008高铁时刻表",
+   "url": "http://m.hc12306.com/huoche/checi/G7008.htm",
+   "verdict": "match",
+   "basis": "发车时间 10:00（官方 10:00）",
+   "claim_time": "10:00",
+   "claim_route": "上海→南京的"
+  },
+  {
+   "train": "G7008",
+   "site": "百度百科",
+   "title": "G7008次",
+   "url": "https://baike.baidu.com/item/G7008%E6%AC%A1/18555863",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7008",
+   "site": "ip138查询网",
+   "title": "南京列车时刻表",
+   "url": "https://qq.ip138.com/train/jiangsu/nanjing.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7008",
+   "site": "高铁旅行网",
+   "title": "G7008次高铁运营历史变化记录",
+   "url": "https://www.gaotie.com.cn/lishi/G7008.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7008",
+   "site": "票价网",
+   "title": "上海火车时刻表",
+   "url": "https://m.piaojia.net/huoche/chezhan/%E4%B8%8A%E6%B5%B7",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7008",
+   "site": "榜眼网络",
+   "title": "无锡站列车时刻表",
+   "url": "https://www.crecc.com/jiangsu/wuxi/wuxi.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "G7008",
+   "site": "ip138查询网",
+   "title": "上海列车时刻表",
+   "url": "https://qq.ip138.com/train/shanghai/ShangHai.htm",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "榜眼网络",
+   "title": "K511次列车时刻表",
+   "url": "https://www.crecc.com/huoche/k511.html",
+   "verdict": "match",
+   "basis": "发车时间 16:40（官方 16:40）",
+   "claim_time": "16:40",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "榜眼网络",
+   "title": "K514次列车时刻表",
+   "url": "https://www.crecc.com/huoche/k514.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "16:40",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "欣欣旅游火车时刻表",
+   "title": "上海南到广州火车_上海南到广州火车时刻表",
+   "url": "https://huoche.cncn.com/train-%C9%CF%BA%A3%C4%CF-%B9%E3%D6%DD",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "www.liecheba.com",
+   "title": "徐闻站",
+   "url": "https://www.liecheba.com/guangdong/xuwen.html",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "江苏反诈网",
+   "title": "从上海松江开往海口的K511快速火车时刻表",
+   "url": "http://m.hc12306.com/huoche/checi/K511.htm",
+   "verdict": "match",
+   "basis": "发车时间 16:40（官方 16:40）",
+   "claim_time": "16:40",
+   "claim_route": "上海松江→海口的"
+  },
+  {
+   "train": "K511",
+   "site": "China Train Guide",
+   "title": "Zhanjiang to Haikou Train Schedule & Ticket Booking",
+   "url": "https://www.chinatrainguide.com/route/zhanjiang-to-haikou",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "百度百科",
+   "title": "K511",
+   "url": "https://baike.baidu.com/item/K511",
+   "verdict": "match",
+   "basis": "发车时间 16:40（官方 16:40）",
+   "claim_time": "16:40",
+   "claim_route": "上海松江→海口的列车"
+  },
+  {
+   "train": "K511",
+   "site": "IP.cn",
+   "title": "K511列车时刻表",
+   "url": "https://ip.cn/train/K511.html",
+   "verdict": "undetermined",
+   "basis": "摘要中无明确时间/线路声明",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "携程旅行",
+   "title": "杭州南-海口 单程 2026-11-04 (共1车次)",
+   "url": "https://trains.ctrip.com/trainbooking/hangzhounan-haikou",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  },
+  {
+   "train": "K511",
+   "site": "去哪儿网",
+   "title": "上海虹桥到湛江火车票查询高铁时刻表､票价余票参考",
+   "url": "https://huoche.qunar.com/train/tickets/shanghaihongqiao-to-zhanjiang",
+   "verdict": "irrelevant",
+   "basis": "标题未出现该车次号（相似车次噪声）",
+   "claim_time": "",
+   "claim_route": ""
+  }
+ ]
+}

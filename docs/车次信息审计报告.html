@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>车次信息可信度审计报告</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+background:#f5f7fa;color:#1f2430;line-height:1.65;padding:32px 20px}
+.wrap{max-width:920px;margin:0 auto}
+.hero{background:linear-gradient(135deg,#1d3fbf,#2b5ce6);color:#fff;border-radius:16px;padding:32px 34px;margin-bottom:22px}
+.hero h1{font-size:26px;font-weight:700;letter-spacing:.3px;margin-bottom:8px}
+.hero p{opacity:.9;font-size:14px}
+.hero .tag{display:inline-block;background:rgba(255,255,255,.18);border-radius:20px;padding:3px 12px;font-size:12px;margin-top:14px;margin-right:6px}
+.card{background:#fff;border-radius:14px;padding:24px 26px;margin-bottom:18px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+h2{font-size:17px;margin-bottom:14px;padding-left:10px;border-left:4px solid #2b5ce6}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+.kpi{background:#fff;border-radius:12px;padding:18px 16px;text-align:center;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.kpi .n{font-size:28px;font-weight:700;color:#2b5ce6;line-height:1.2}
+.kpi .n.red{color:#e5484d}
+.kpi .l{font-size:12px;color:#6b7280;margin-top:4px}
+.kpi .s{font-size:11px;color:#9aa3b2;margin-top:2px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;color:#6b7280;font-weight:500;font-size:12px;padding:8px 10px;border-bottom:1px solid #e8ebf0;background:#fafbfc}
+td{padding:9px 10px;border-bottom:1px solid #f0f2f5}
+.c{text-align:center} .bad{color:#e5484d;font-weight:600} .ok{color:#30a46c;font-weight:600}
+.muted{color:#8b95a5} .small{font-size:12px}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;background:#f2f4f7;padding:1px 6px;border-radius:4px;font-size:12px}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:13px}
+.bar-label{width:150px;flex:0 0 150px;color:#374151}
+.bar-track{flex:1;height:9px;background:#eef1f5;border-radius:5px;overflow:hidden}
+.bar-fill{display:block;height:100%;border-radius:5px}
+.bar-val{width:56px;text-align:right;color:#6b7280;font-size:12px}
+.case{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:6px}
+.case div{border-radius:10px;padding:16px;font-size:13px}
+.case .t{font-size:11px;letter-spacing:.5px;margin-bottom:8px;font-weight:600}
+.case .v{font-size:19px;font-weight:700;font-family:ui-monospace,Menlo,monospace}
+.case .d{font-size:11px;margin-top:6px;opacity:.8}
+.good{background:#eafaf1;color:#186b45}
+.badc{background:#fdecec;color:#a3171b}
+.warn{background:#fff8e8;color:#8a5a00}
+.note{background:#f0f4ff;border-radius:10px;padding:14px 16px;font-size:13px;color:#33406b;margin-top:12px}
+ul{margin-left:18px;font-size:13.5px} li{margin-bottom:7px}
+.foot{text-align:center;color:#9aa3b2;font-size:12px;padding:8px 0 20px}
+</style></head><body><div class="wrap">
+
+<div class="hero">
+  <h1>车次信息可信度审计报告</h1>
+  <p>用元宝搜索 VR 卡作为真值源，核验网络公开信息与 AI 回答中的车次时刻声明</p>
+  <span class="tag">Mode=1 权威车次卡</span><span class="tag">Mode=0 自然结果</span>
+  <span class="tag">22 个车次</span><span class="tag">220 条网页信息</span>
+</div>
+
+<div class="kpis">
+  <div class="kpi"><div class="n">220</div><div class="l">抓取网页信息</div><div class="s">22 车次 × 10 条</div></div>
+  <div class="kpi"><div class="n">96</div><div class="l">答非所问</div><div class="s">43.6% 标题是别的车次</div></div>
+  <div class="kpi"><div class="n">89</div><div class="l">可判定的明确声明</div><div class="s">含时间或线路</div></div>
+  <div class="kpi"><div class="n red">12.4%</div><div class="l">与官方不一致</div><div class="s">11 / 89 条</div></div>
+</div>
+
+<div class="card">
+  <h2>一个具体案例：G677 次</h2>
+  <p style="font-size:13.5px;color:#4b5563;margin-bottom:12px">
+    同一个车次，三个来源给出三个答案。注意第二、三个答案都不是“明显的胡说”，
+    而是看起来完全合理的时刻表 —— 这正是这类错误最难被发现的原因。</p>
+  <div class="case">
+    <div class="good"><div class="t">元宝搜索 VR 卡（权威）</div>
+      <div class="v">10:25</div><div class="d">上海虹桥 → 汉口 14:44<br>全程 4 小时 19 分</div></div>
+    <div class="badc"><div class="t">train.hao86.com</div>
+      <div class="v">08:38</div><div class="d">同为“上海虹桥→汉口”<br>却把时刻表整体错位</div></div>
+    <div class="badc"><div class="t">大模型回答</div>
+      <div class="v">07:00</div><div class="d">答“广州南 → 深圳北”<br>车次、线路、时刻全错</div></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>错误集中在哪：按站点统计</h2>
+  <p style="font-size:12.5px;color:#8b95a5;margin-bottom:14px">仅统计可判定的条目（≥4 条样本），条越长表示该站点信息与官方越不一致。</p>
+  
+    <div class="bar-row">
+      <span class="bar-label">train.hao86.com</span>
+      <span class="bar-track"><span class="bar-fill" style="width:46.2%;background:#e5484d"></span></span>
+      <span class="bar-val">6/13</span>
+    </div>
+    <div class="bar-row">
+      <span class="bar-label">百度百科</span>
+      <span class="bar-track"><span class="bar-fill" style="width:33.3%;background:#e5484d"></span></span>
+      <span class="bar-val">3/9</span>
+    </div>
+    <div class="bar-row">
+      <span class="bar-label">ip138查询网</span>
+      <span class="bar-track"><span class="bar-fill" style="width:5.3%;background:#f5a524"></span></span>
+      <span class="bar-val">1/19</span>
+    </div>
+    <div class="bar-row">
+      <span class="bar-label">www.ailieche.com</span>
+      <span class="bar-track"><span class="bar-fill" style="width:1.5%;background:#30a46c"></span></span>
+      <span class="bar-val">0/13</span>
+    </div>
+    <div class="bar-row">
+      <span class="bar-label">榜眼网络</span>
+      <span class="bar-track"><span class="bar-fill" style="width:1.5%;background:#30a46c"></span></span>
+      <span class="bar-val">0/16</span>
+    </div>
+    <div class="bar-row">
+      <span class="bar-label">www.liecheba.com</span>
+      <span class="bar-track"><span class="bar-fill" style="width:1.5%;background:#30a46c"></span></span>
+      <span class="bar-val">0/7</span>
+    </div>
+    <div class="bar-row">
+      <span class="bar-label">高铁旅行网</span>
+      <span class="bar-track"><span class="bar-fill" style="width:1.5%;background:#30a46c"></span></span>
+      <span class="bar-val">0/4</span>
+    </div>
+    <div class="bar-row">
+      <span class="bar-label">江苏反诈网</span>
+      <span class="bar-track"><span class="bar-fill" style="width:1.5%;background:#30a46c"></span></span>
+      <span class="bar-val">0/6</span>
+    </div>
+  <div class="note">一个站点贡献了一半的错误，而另外几个站点零错误 —— 说明这不是随机噪声，而是<strong>站点级的数据维护问题</strong>。这类差异只有做全量核验才看得出来。</div>
+</div>
+
+<div class="card">
+  <h2>不一致条目明细（11 条）</h2>
+  <table>
+    <thead><tr><th>车次</th><th>来源站点</th><th>网页声明</th><th>差异类型</th><th>页面标题</th></tr></thead>
+    <tbody><tr>
+      <td><b>G1</b></td>
+      <td>train.hao86.com</td>
+      <td class="mono bad">07:00</td>
+      <td class="muted">发车时间 07:00</td>
+      <td class="muted small">G1次列车时刻表</td>
+    </tr><tr>
+      <td><b>G3</b></td>
+      <td>trainm.hao86.com</td>
+      <td class="mono bad">07:40</td>
+      <td class="muted">发车时间 07:40</td>
+      <td class="muted small">G3次列车时刻表</td>
+    </tr><tr>
+      <td><b>G27</b></td>
+      <td>train.hao86.com</td>
+      <td class="mono bad">19:00</td>
+      <td class="muted">发车时间 19:00</td>
+      <td class="muted small">G27次列车时刻表</td>
+    </tr><tr>
+      <td><b>G27</b></td>
+      <td>百度百科</td>
+      <td class="mono bad">19:00</td>
+      <td class="muted">发车时间 19:00</td>
+      <td class="muted small">G27次列车</td>
+    </tr><tr>
+      <td><b>K79</b></td>
+      <td>ip138查询网</td>
+      <td class="mono bad">18:24</td>
+      <td class="muted">发车时间 18:24</td>
+      <td class="muted small">从上海南开往昆明K79次列车时刻表</td>
+    </tr><tr>
+      <td><b>Z386</b></td>
+      <td>百度百科</td>
+      <td class="mono bad">海南省→东北地区的直达旅</td>
+      <td class="muted">线路 海南省→东北地区的直达旅</td>
+      <td class="muted small">Z386/383次列车</td>
+    </tr><tr>
+      <td><b>G7</b></td>
+      <td>train.hao86.com</td>
+      <td class="mono bad">10:00</td>
+      <td class="muted">发车时间 10:00</td>
+      <td class="muted small">G7次列车时刻表</td>
+    </tr><tr>
+      <td><b>G11</b></td>
+      <td>train.hao86.com</td>
+      <td class="mono bad">12:00</td>
+      <td class="muted">发车时间 12:00</td>
+      <td class="muted small">G11次列车时刻表</td>
+    </tr><tr>
+      <td><b>G11</b></td>
+      <td>百度百科</td>
+      <td class="mono bad">12:00</td>
+      <td class="muted">发车时间 12:00</td>
+      <td class="muted small">G11次列车</td>
+    </tr><tr>
+      <td><b>G31</b></td>
+      <td>train.hao86.com</td>
+      <td class="mono bad">07:56</td>
+      <td class="muted">发车时间 07:56</td>
+      <td class="muted small">G31次列车时刻表</td>
+    </tr><tr>
+      <td><b>Z21</b></td>
+      <td>train.hao86.com</td>
+      <td class="mono bad">19:22</td>
+      <td class="muted">发车时间 19:22</td>
+      <td class="muted small">Z21次列车时刻表</td>
+    </tr></tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h2>逐车次审计明细</h2>
+  <table>
+    <thead><tr><th>车次</th><th>官方始发</th><th>官方终到</th><th class="c">一致</th><th class="c">不一致</th><th class="c">无声明</th><th class="c">非该车次</th></tr></thead>
+    <tbody><tr>
+      <td><b>C260</b></td>
+      <td>曹妃甸东 <span class="mono">07:21</span></td>
+      <td>曹妃甸港 <span class="mono">08:03</span></td>
+      <td class="c">3</td>
+      <td class="c ok">—</td>
+      <td class="c muted">0</td>
+      <td class="c muted">7</td>
+    </tr><tr>
+      <td><b>D2281</b></td>
+      <td>南京南 <span class="mono">06:32</span></td>
+      <td>深圳北 <span class="mono">20:14</span></td>
+      <td class="c">2</td>
+      <td class="c ok">—</td>
+      <td class="c muted">1</td>
+      <td class="c muted">7</td>
+    </tr><tr>
+      <td><b>G1</b></td>
+      <td>北京南 <span class="mono">06:30</span></td>
+      <td>上海虹桥 <span class="mono">11:24</span></td>
+      <td class="c">6</td>
+      <td class="c bad">1</td>
+      <td class="c muted">2</td>
+      <td class="c muted">1</td>
+    </tr><tr>
+      <td><b>G11</b></td>
+      <td>北京南 <span class="mono">10:03</span></td>
+      <td>上海虹桥 <span class="mono">14:39</span></td>
+      <td class="c">4</td>
+      <td class="c bad">2</td>
+      <td class="c muted">0</td>
+      <td class="c muted">4</td>
+    </tr><tr>
+      <td><b>G1684</b></td>
+      <td>厦门 <span class="mono">09:12</span></td>
+      <td>昆明南 <span class="mono">22:56</span></td>
+      <td class="c">2</td>
+      <td class="c ok">—</td>
+      <td class="c muted">0</td>
+      <td class="c muted">8</td>
+    </tr><tr>
+      <td><b>G1847</b></td>
+      <td>烟台 <span class="mono">09:46</span></td>
+      <td>邵阳 <span class="mono">22:09</span></td>
+      <td class="c">3</td>
+      <td class="c ok">—</td>
+      <td class="c muted">1</td>
+      <td class="c muted">6</td>
+    </tr><tr>
+      <td><b>G2556</b></td>
+      <td>黄山北 <span class="mono">07:55</span></td>
+      <td>北京南 <span class="mono">14:42</span></td>
+      <td class="c">2</td>
+      <td class="c ok">—</td>
+      <td class="c muted">2</td>
+      <td class="c muted">6</td>
+    </tr><tr>
+      <td><b>G27</b></td>
+      <td>北京南 <span class="mono">17:04</span></td>
+      <td>上海虹桥 <span class="mono">21:36</span></td>
+      <td class="c">3</td>
+      <td class="c bad">2</td>
+      <td class="c muted">1</td>
+      <td class="c muted">4</td>
+    </tr><tr>
+      <td><b>G3</b></td>
+      <td>北京南 <span class="mono">06:52</span></td>
+      <td>上海 <span class="mono">11:33</span></td>
+      <td class="c">5</td>
+      <td class="c bad">1</td>
+      <td class="c muted">2</td>
+      <td class="c muted">2</td>
+    </tr><tr>
+      <td><b>G31</b></td>
+      <td>北京南 <span class="mono">18:04</span></td>
+      <td>上海虹桥 <span class="mono">22:58</span></td>
+      <td class="c">5</td>
+      <td class="c bad">1</td>
+      <td class="c muted">1</td>
+      <td class="c muted">3</td>
+    </tr><tr>
+      <td><b>G55</b></td>
+      <td>— <span class="mono">—</span></td>
+      <td>— <span class="mono">—</span></td>
+      <td class="c">0</td>
+      <td class="c none">—</td>
+      <td class="c muted">6</td>
+      <td class="c muted">4</td>
+    </tr><tr>
+      <td><b>G676</b></td>
+      <td>上海虹桥 <span class="mono">10:25</span></td>
+      <td>汉口 <span class="mono">14:44</span></td>
+      <td class="c">5</td>
+      <td class="c ok">—</td>
+      <td class="c muted">1</td>
+      <td class="c muted">4</td>
+    </tr><tr>
+      <td><b>G677</b></td>
+      <td>上海虹桥 <span class="mono">10:25</span></td>
+      <td>汉口 <span class="mono">14:44</span></td>
+      <td class="c">5</td>
+      <td class="c ok">—</td>
+      <td class="c muted">2</td>
+      <td class="c muted">3</td>
+    </tr><tr>
+      <td><b>G7</b></td>
+      <td>北京南 <span class="mono">09:00</span></td>
+      <td>上海虹桥 <span class="mono">13:37</span></td>
+      <td class="c">7</td>
+      <td class="c bad">1</td>
+      <td class="c muted">2</td>
+      <td class="c muted">0</td>
+    </tr><tr>
+      <td><b>G7008</b></td>
+      <td>上海 <span class="mono">10:00</span></td>
+      <td>南京 <span class="mono">11:39</span></td>
+      <td class="c">4</td>
+      <td class="c ok">—</td>
+      <td class="c muted">2</td>
+      <td class="c muted">4</td>
+    </tr><tr>
+      <td><b>K117</b></td>
+      <td>北京西 <span class="mono">11:54</span></td>
+      <td>成都龙泉驿 <span class="mono">次日20:44</span></td>
+      <td class="c">2</td>
+      <td class="c ok">—</td>
+      <td class="c muted">3</td>
+      <td class="c muted">5</td>
+    </tr><tr>
+      <td><b>K2084</b></td>
+      <td>海拉尔 <span class="mono">20:50</span></td>
+      <td>大连 <span class="mono">次日20:51</span></td>
+      <td class="c">3</td>
+      <td class="c ok">—</td>
+      <td class="c muted">0</td>
+      <td class="c muted">7</td>
+    </tr><tr>
+      <td><b>K511</b></td>
+      <td>上海松江 <span class="mono">16:40</span></td>
+      <td>海口 <span class="mono">第三天05:35</span></td>
+      <td class="c">3</td>
+      <td class="c ok">—</td>
+      <td class="c muted">1</td>
+      <td class="c muted">6</td>
+    </tr><tr>
+      <td><b>K79</b></td>
+      <td>上海松江 <span class="mono">15:08</span></td>
+      <td>昆明 <span class="mono">第三天05:13</span></td>
+      <td class="c">4</td>
+      <td class="c bad">1</td>
+      <td class="c muted">2</td>
+      <td class="c muted">3</td>
+    </tr><tr>
+      <td><b>T110</b></td>
+      <td>上海 <span class="mono">16:30</span></td>
+      <td>北京 <span class="mono">次日08:33</span></td>
+      <td class="c">4</td>
+      <td class="c ok">—</td>
+      <td class="c muted">2</td>
+      <td class="c muted">4</td>
+    </tr><tr>
+      <td><b>Z21</b></td>
+      <td>北京西 <span class="mono">19:48</span></td>
+      <td>拉萨 <span class="mono">第三天11:46</span></td>
+      <td class="c">2</td>
+      <td class="c bad">1</td>
+      <td class="c muted">4</td>
+      <td class="c muted">3</td>
+    </tr><tr>
+      <td><b>Z386</b></td>
+      <td>海口 <span class="mono">09:20</span></td>
+      <td>长春 <span class="mono">第三天11:55</span></td>
+      <td class="c">4</td>
+      <td class="c bad">1</td>
+      <td class="c muted">0</td>
+      <td class="c muted">5</td>
+    </tr></tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h2>方法与判定口径</h2>
+  <ul>
+    <li><strong>真值源</strong>：元宝搜索 SearchPro 的 <span class="mono">Mode=1</span> 垂直权威信源卡，返回车站、发车时刻、经停站与全程耗时，数据来自携程车次库。</li>
+    <li><strong>待验对象</strong>：<span class="mono">Mode=0</span> 自然搜索结果的前 10 条网页摘要。</li>
+    <li><strong>四态判定</strong>：一致 / 不一致 / 无明确声明（不判对错）/ 非该车次（噪声剔除）。<strong>“无法判定”单独成态而不是硬判对错</strong>，是这套审计能站得住的前提。</li>
+    <li><strong>噪声过滤</strong>：搜索 “G27 次列车” 会返回 G17、G2701、K7901 等相似车次页面，若不按车次号精确匹配剔除，会把别人的时刻表算成错误（初版误报率因此高达 17.3%，收紧后降至 12.4%）。</li>
+  </ul>
+  <div class="note">这套流程可以原样迁移到任何“有权威结构化真值”的领域：金价、油价、汇率、天气、股价、手机参数。车次只是第一个验证对象。</div>
+</div>
+
+<div class="card">
+  <h2>数据可复现说明</h2>
+  <ul>
+    <li>调用方式：腾讯云 SearchPro，零依赖手写 TC3-HMAC-SHA256 签名（未安装任何 SDK）。</li>
+    <li>调用量：22 车次 × 2 次（权威卡 + 自然结果）= 44 次，成本约 ¥0.9。</li>
+    <li>原始数据：<span class="mono">web_audit_results.json</span>，含每条网页的 URL、判定依据与官方值。</li>
+  </ul>
+</div>
+
+<div class="foot">数据采集于 2026-11-09 · 全部条目可通过原始 JSON 逐条复核</div>
+</div></body></html>

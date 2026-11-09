@@ -1,0 +1,243 @@
+{
+ "G677": {
+  "stops": [
+   {
+    "station": "上海虹桥",
+    "arr": "",
+    "dep": "10:25",
+    "stay": ""
+   },
+   {
+    "station": "昆山南",
+    "arr": "10:42",
+    "dep": "10:44",
+    "stay": "2分钟"
+   },
+   {
+    "station": "无锡东",
+    "arr": "11:00",
+    "dep": "11:02",
+    "stay": "2分钟"
+   },
+   {
+    "station": "南京南",
+    "arr": "11:47",
+    "dep": "11:52",
+    "stay": "5分钟"
+   },
+   {
+    "station": "合肥南",
+    "arr": "12:41",
+    "dep": "12:45",
+    "stay": "4分钟"
+   },
+   {
+    "station": "麻城北",
+    "arr": "13:54",
+    "dep": "",
+    "stay": ""
+   }
+  ],
+  "from_station": "上海虹桥",
+  "to_station": "汉口",
+  "train_type": "高铁",
+  "train_no": "G677",
+  "duration": "4小时19分钟",
+  "dep_time": "10:25",
+  "arr_time": "14:44",
+  "_source_url": "",
+  "_vrid": "70083601",
+  "fetched_at": "2026-11-09T02:40:00Z",
+  "_stale": false
+ },
+ "K79": {
+  "stops": [
+   {
+    "station": "上海松江",
+    "arr": "",
+    "dep": "15:08",
+    "stay": ""
+   },
+   {
+    "station": "嘉兴",
+    "arr": "15:42",
+    "dep": "15:45",
+    "stay": "3分钟"
+   },
+   {
+    "station": "杭州南",
+    "arr": "16:49",
+    "dep": "17:01",
+    "stay": "12分钟"
+   },
+   {
+    "station": "诸暨",
+    "arr": "17:56",
+    "dep": "18:00",
+    "stay": "4分钟"
+   },
+   {
+    "station": "义乌",
+    "arr": "18:36",
+    "dep": "18:42",
+    "stay": "6分钟"
+   },
+   {
+    "station": "金华",
+    "arr": "19:24",
+    "dep": "...",
+    "stay": ""
+   }
+  ],
+  "from_station": "上海松江",
+  "to_station": "昆明",
+  "train_type": "普快",
+  "train_no": "K79",
+  "duration": "38小时5分钟",
+  "dep_time": "15:08",
+  "arr_time": "第三天05:13",
+  "_source_url": "",
+  "_vrid": "70083601",
+  "fetched_at": "2026-11-09T02:40:00Z",
+  "_stale": false
+ },
+ "G2556": {
+  "stops": [
+   {
+    "station": "黄山北",
+    "arr": "",
+    "dep": "07:55",
+    "stay": ""
+   },
+   {
+    "station": "歙县北",
+    "arr": "08:03",
+    "dep": "08:05",
+    "stay": "2分钟"
+   },
+   {
+    "station": "绩溪北",
+    "arr": "08:16",
+    "dep": "08:18",
+    "stay": "2分钟"
+   },
+   {
+    "station": "泾县",
+    "arr": "08:38",
+    "dep": "08:40",
+    "stay": "2分钟"
+   },
+   {
+    "station": "铜陵北",
+    "arr": "08:57",
+    "dep": "08:59",
+    "stay": "2分钟"
+   },
+   {
+    "station": "合肥南",
+    "arr": "09:...",
+    "dep": "",
+    "stay": ""
+   }
+  ],
+  "from_station": "黄山北",
+  "to_station": "北京南",
+  "train_type": "高铁",
+  "train_no": "G2556",
+  "duration": "6小时47分钟",
+  "dep_time": "07:55",
+  "arr_time": "14:42",
+  "_source_url": "",
+  "_vrid": "70083601",
+  "fetched_at": "2026-11-09T02:40:00Z",
+  "_stale": false
+ },
+ "C260": {
+  "stops": [
+   {
+    "station": "曹妃甸东",
+    "arr": "",
+    "dep": "07:21",
+    "stay": ""
+   },
+   {
+    "station": "唐海南",
+    "arr": "07:31",
+    "dep": "07:46",
+    "stay": "15分钟"
+   },
+   {
+    "station": "曹妃甸港",
+    "arr": "08:03",
+    "dep": "08:03",
+    "stay": ""
+   }
+  ],
+  "from_station": "曹妃甸东",
+  "to_station": "曹妃甸港",
+  "train_type": "城际列车",
+  "train_no": "C260",
+  "duration": "0小时42分钟",
+  "dep_time": "07:21",
+  "arr_time": "08:03",
+  "_source_url": "",
+  "_vrid": "70083601",
+  "fetched_at": "2026-11-09T02:40:00Z",
+  "_stale": false
+ },
+ "D8494": {
+  "_empty": true,
+  "fetched_at": "2026-11-09T02:40:00Z"
+ },
+ "G1847": {
+  "stops": [
+   {
+    "station": "烟台",
+    "arr": "",
+    "dep": "09:46",
+    "stay": ""
+   },
+   {
+    "station": "莱阳",
+    "arr": "10:25",
+    "dep": "10:27",
+    "stay": "2分钟"
+   },
+   {
+    "station": "即墨北",
+    "arr": "10:48",
+    "dep": "10:50",
+    "stay": "2分钟"
+   },
+   {
+    "station": "青岛西",
+    "arr": "11:31",
+    "dep": "11:34",
+    "stay": "3分钟"
+   },
+   {
+    "station": "日照西",
+    "arr": "12:04",
+    "dep": "12:08",
+    "stay": "4分钟"
+   },
+   {
+    "station": "岚山西",
+    "arr": "12:21...",
+    "dep": "",
+    "stay": ""
+   }
+  ],
+  "from_station": "烟台",
+  "to_station": "邵阳",
+  "train_type": "高铁",
+  "train_no": "G1847",
+  "duration": "12小时23分钟",
+  "dep_time": "09:46",
+  "arr_time": "22:09",
+  "_source_url": "",
+  "_vrid": "70083601",
+  "fetched_at": "2026-11-09T02:40:00Z",
+  "_stale": false
+ }
+}
