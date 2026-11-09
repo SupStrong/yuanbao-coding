@@ -1,4 +1,4 @@
-# train-truth · AI 车次断言验真器
+# yuanbao-coding · AI 车次断言验真器
 
 用**元宝搜索 VR 权威信源卡**逐站核验大模型给出的火车时刻，把「AI 说的对不对」变成一件可以逐条复核的事。
 
@@ -23,8 +23,8 @@
 零第三方依赖，Python 3.10+。
 
 ```bash
-git clone <本仓库地址>
-cd train-truth
+git clone https://github.com/SupStrong/yuanbao-coding.git
+cd yuanbao-coding
 python run_verify.py
 ```
 
@@ -69,7 +69,7 @@ python run_verify.py --refresh
 ## 项目结构
 
 ```
-train-truth/
+yuanbao-coding/
 ├── run_verify.py        一键跑完整管线，输出 results.json + 验真报告.html
 ├── wsa_client.py        元宝搜索 SearchPro 客户端（纯标准库 TC3-HMAC-SHA256 签名）
 ├── official.py          VR 卡 passage → 逐站时刻结构（fetched_at + TTL 缓存）
