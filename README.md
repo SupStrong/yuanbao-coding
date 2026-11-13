@@ -1,5 +1,8 @@
 # yuanbao-coding · AI 车次断言验真器
 
+[![verify](https://github.com/SupStrong/yuanbao-coding/actions/workflows/verify.yml/badge.svg)](https://github.com/SupStrong/yuanbao-coding/actions/workflows/verify.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 用**元宝搜索 VR 权威信源卡**逐站核验大模型给出的火车时刻，把「AI 说的对不对」变成一件可以逐条复核的事。
 
 > 一个 AI 说「G677 次 10:25 从上海虹桥发车，14:44 到汉口」。
