@@ -1,0 +1,104 @@
+name: verify
+
+# 在干净机器上从零跑一遍：不填任何密钥，用仓库内置的权威时刻缓存
+# 通过条件 = 离线管线可复现（豆包 11/11、记忆基线 0/18）
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: run_verify (py${{ matrix.python }})
+    runs-on: ubuntu-latest
+    env:
+      # 输出含中文，强制 UTF-8，避免 runner 上编码不一致
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
+      LANG: "C.UTF-8"
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: 环境自检（应无第三方依赖）
+        run: |
+          python --version
+          echo "--- 导入检查：仅标准库 ---"
+          python - <<'PY'
+          import sys, importlib
+          mods = ["json", "hashlib", "hmac", "urllib.request", "datetime", "pathlib", "re", "os"]
+          for m in mods:
+              importlib.import_module(m)
+          print("stdlib imports OK:", len(mods))
+          print("python:", sys.version.split()[0])
+          PY
+
+      - name: 确认未携带任何密钥
+        run: |
+          test ! -f .env && echo "OK: 无 .env，强制进入离线缓存模式"
+          test -z "$TENCENTCLOUD_SECRET_ID" && echo "OK: 环境无 SecretId"
+
+      - name: 跑验真管线（离线）
+        run: |
+          set -o pipefail
+          python run_verify.py | tee /tmp/out.txt
+
+      - name: 断言结论可复现
+        run: |
+          echo "=== 关键结论行 ==="
+          grep -E "小计|^-|准确率" /tmp/out.txt || true
+          echo
+          grep -q "正确 11 / 可判定 11 站（准确率 100.0%）" /tmp/out.txt \
+            && echo "PASS: 豆包 11/11" \
+            || { echo "FAIL: 豆包结果不符"; exit 1; }
+          grep -q "正确 0 / 可判定 18 站（准确率 0.0%）" /tmp/out.txt \
+            && echo "PASS: 记忆基线 0/18" \
+            || { echo "FAIL: 记忆基线结果不符"; exit 1; }
+
+      - name: 校验产物（结构 + 结论断言）
+        run: |
+          ls -la results.json 验真报告.html
+          python - <<'PY'
+          import json, pathlib
+
+          d = json.loads(pathlib.Path("results.json").read_text(encoding="utf-8"))
+          assert set(d) >= {"models", "questions"}, f"顶层结构异常: {list(d)}"
+          qs = d["questions"]
+          print("results.json 题目数:", len(qs))
+          assert len(qs) >= 15, "题目数异常"
+
+          m = d["models"]
+          print("--- 模型结论 ---")
+          for name, s in m.items():
+              print(f"  {name}: {s['correct']}/{s['decidable_stations']} "
+                    f"({s['accuracy']*100:.1f}%)  不符 {s['mismatch']}")
+
+          bao = next(v for k, v in m.items() if "豆包" in k)
+          base = next(v for k, v in m.items() if "记忆" in k)
+          assert bao["decidable_stations"] == 11 and bao["correct"] == 11, "豆包结论不符"
+          assert base["decidable_stations"] == 18 and base["correct"] == 0, "记忆基线结论不符"
+          print("PASS: 豆包 11/11、记忆基线 0/18 与报告一致")
+
+          html = pathlib.Path("验真报告.html").read_text(encoding="utf-8", errors="ignore")
+          assert len(html) > 1000, "报告过小"
+          print("验真报告.html 字节:", len(html.encode("utf-8")))
+          print("OK: 产物完整")
+          PY
+
+      - name: 上传报告
+        uses: actions/upload-artifact@v4
+        with:
+          name: 验真报告-py${{ matrix.python }}
+          path: |
+            验真报告.html
+            results.json
+            official_trains.json
+          if-no-files-found: error
